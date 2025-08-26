@@ -34,7 +34,7 @@
 ### 01 Magma
 - Matt: Refrain
 - Daff: Refrain
-- Vinz: alles
+- Vinz: alles,**I,II**
 - Tob: Refrain
 ### 02 Antrieb
 - Matt: R2
@@ -74,8 +74,8 @@
 ### 09 Tanker
 - Matt: ?
 - Daff: ?
-- Vinz: **alles**
-- Tob: Strophe backings, Finale
+- Vinz: **Strophe**, **Bridge**, Finale
+- Tob: Strophe backings, Bridge Finale
 ### 10 9€
 - Matt: *Refrain?*
 - Daff: **alles**
