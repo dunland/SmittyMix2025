@@ -7,3 +7,5 @@
 # Gitarren doppeln:
 ## DingelDongel
 - Tob Melodie Intro + Outro
+## Tanker
+- Tob tapping Git Finale
