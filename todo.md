@@ -37,48 +37,48 @@
 - Vinz: alles
 - Tob: Refrain
 ### 02 Antrieb
-- Matt: ?
+- Matt: R2
 - Daff: alles
-- Vinz: alles
-- Tob: I, II
+- Vinz: alles, **R**
+- Tob: **I**, **II**
 ### 03 Glockenmann
 - Matt: R
 - Daff: I, II, R, III
-- Vinz: alles
-- Tob: B, R, II
+- Vinz: alles, **I**, **II**
+- Tob: **B**, R, II
 ### 04 Franka, Franka
 - Matt: Strophen? Refrain?
-- Daff: B, R
-- Vinz: alles
-- Tob: B, R
+- Daff: B, **R**, Strophen?
+- Vinz: alles, **I**
+- Tob: **B**, R
 ### 05 Juwelenraub
 - Matt: ?
 - Daff: x
-- Vinz: alles
+- Vinz: **alles**
 - Tob: (I), II, R, F1
 ### 06 Schlangenmensch
 - Matt: erstes Wort Strophe
 - Daff: B
-- Vinz: alles
-- Tob: B
+- Vinz: alles, **I**, **II**, **III**
+- Tob: **B**
 ### 07 Leiter
 - Matt: ?, *Strophe?*
-- Daff: unendliche Leiter, *Strophe?*
-- Vinz: Strophe, *R1?*, unendliche Leiter
-- Tob: unendliche Leiter, *R1?*, *Strophe?*
+- Daff: **unendliche Leiter**, *Strophe?*
+- Vinz: **Strophe**, **B**, unendliche Leiter
+- Tob: unendliche Leiter, B, *Strophe?*
 ### 08 DingelDongel
 - Matt: x
 - Daff: R
 - Vinz: x
-- Tob: alles
+- Tob: **alles**
 ### 09 Tanker
 - Matt: ?
 - Daff: ?
-- Vinz: alles
+- Vinz: **alles**
 - Tob: Strophe backings, Finale
 ### 10 9€
 - Matt: *Refrain?*
-- Daff: alles
+- Daff: **alles**
 - Vinz: x
 - Tob: ahh im Ref
 <br><br><br>
