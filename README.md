@@ -1,6 +1,7 @@
 # SmittyWerben 2025 Aufnahmen
 
-aufgenommen am 9.+10. August 2025 in Hamburch
+aufgenommen am 9.+10. August 2025 in Hamburch  
+Ardour 8.12
 
 ## Mixlog
 

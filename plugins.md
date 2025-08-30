@@ -6,10 +6,10 @@
 
 - x42 eq installieren:
 
-`git clone git@github.com:x42/fil4.lv2.git`
-`cd fil4.lv2`
-`make submodules`
-`make`
+`git clone git@github.com:x42/fil4.lv2.git`  
+`cd fil4.lv2`  
+`make submodules`  
+`make`  
 `sudo make install PREFIX=/usr`
 
 - fil4.lv2 nach .lv2 oder .vst in ~ kopieren
