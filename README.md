@@ -10,6 +10,7 @@ Ardour 8.12
 - Hihat Phase umgedreht, weil die genau umgekehrt zu Ride und Snare ist
 - Lautstärken: Bin nochmal durch alle Kompressoren gegangen und habe Attack & Release angepasst, das macht ganz schön viel aus!
 - Juwelen Bass lauter gemacht bei Juwelen, Glockenmann, Dingeldongel, Tanker, Schlange letzter Teil
+- grob alle Gitarrenlautstärken gemacht
 
 23.08.2025
 - Schlagzeug: Wurst und Kick vertragen sich leider gar nicht. **Wenn bei Wurst die Phase umgedreht wird, hat die Kick viel mehr Druck!**

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="7003" name="WELLNESS-2025_KOMPLETT" sample-rate="44100" session-range-is-free="0" id-counter="217713" rg-counter="604" name-counter="1" event-counter="6080" vca-counter="1">
+<Session version="7003" name="WELLNESS-2025_KOMPLETT" sample-rate="44100" session-range-is-free="0" id-counter="219561" rg-counter="628" name-counter="1" event-counter="6080" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2" modified-with="Ardour 8.12"/>
   <EngineHints backend="PulseAudio" input-device="Default Playback" output-device="Default Playback"/>
   <MIDIPorts>
@@ -21405,9 +21405,7 @@ a409600 1
     <CompoundAssociation copy="90858" original="89712"/>
     <CompoundAssociation copy="90869" original="89827"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="6753" control="0" order="42"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="1427" name="session" start="b0" end="b11916454" flags="IsSessionRange" locked="0" timestamp="1754689221" cue="0"/>
     <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
@@ -22164,7 +22162,7 @@ a409600 1
         </OutputMap-0>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
-          <Port symbol="enable" value="0"/>
+          <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
           <Port symbol="HighPass" value="1"/>
@@ -22198,7 +22196,7 @@ a409600 1
           <Port symbol="HSq" value="1"/>
           <Port symbol="HSgain" value="0"/>
         </lv2>
-        <Controllable name="Enable" id="217647" flags="Toggle" value="0" parameter="2" symbol="enable"/>
+        <Controllable name="Enable" id="217647" flags="Toggle" value="1" parameter="2" symbol="enable"/>
         <Controllable name="Gain" id="217649" flags="" value="0" parameter="3" symbol="gain"/>
         <Controllable name="Reset Peak Hold" id="217651" flags="Toggle" value="1" parameter="5" symbol="peakreset"/>
         <Controllable name="Highpass" id="217653" flags="Toggle" value="1" parameter="6" symbol="HighPass"/>
@@ -27391,7 +27389,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="300" name="Git_Tob-Shure" type="audio" orig-track-id="238" pgroup-id="2025-08-10 12.58.48" shared-with-ids="" frozen="0" combine-ops="3">
-      <Region name="Antrieb_Take2_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="3562" type="audio" first-edit="nothing" source-0="3265" master-source-0="3265" channels="1">
+      <Region name="Antrieb_Take2_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.6648095846176147" id="3562" type="audio" first-edit="nothing" source-0="3265" master-source-0="3265" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="3563" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -27546,7 +27544,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Franka_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5324" type="audio" first-edit="nothing" source-0="4257" master-source-0="4257" channels="1">
+      <Region name="Franka_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2140847444534302" id="5324" type="audio" first-edit="nothing" source-0="4257" master-source-0="4257" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5325" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -27701,7 +27699,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Juwelen_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5710" type="audio" first-edit="nothing" source-0="4497" master-source-0="4497" channels="1">
+      <Region name="Juwelen_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2126398086547852" id="5710" type="audio" first-edit="nothing" source-0="4497" master-source-0="4497" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="5716" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -27862,7 +27860,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Management_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="6273" type="audio" first-edit="nothing" source-0="4737" master-source-0="4737" channels="1">
+      <Region name="Management_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.8595024347305298" id="6273" type="audio" first-edit="nothing" source-0="4737" master-source-0="4737" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="6274" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -28017,7 +28015,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Schlange_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327734278" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="7013" type="audio" first-edit="nothing" source-0="4977" master-source-0="4977" channels="1">
+      <Region name="Schlange_Git_Tob-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327734278" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2159312963485718" id="7013" type="audio" first-edit="nothing" source-0="4977" master-source-0="4977" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="7019" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -28178,7 +28176,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take1_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270291844080" length="a32776588800@a262973751373" sync-position="a270291844080" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.1946520805358887" id="13611" type="audio" first-edit="nothing" source-0="12945" master-source-0="12945" channels="1">
+      <Region name="Take1_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270291844080" length="a32776588800@a262973751373" sync-position="a270291844080" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.7629034519195557" id="13611" type="audio" first-edit="nothing" source-0="12945" master-source-0="12945" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="13616" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -28502,7 +28500,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take5_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="31893" type="audio" first-edit="nothing" source-0="31636" master-source-0="31636" channels="1">
+      <Region name="Take5_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.409937858581543" id="31893" type="audio" first-edit="nothing" source-0="31636" master-source-0="31636" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="31898" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002174304086
@@ -28663,7 +28661,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take6_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a26371116800@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="34020" type="audio" first-edit="nothing" source-0="32272" master-source-0="32272" channels="1">
+      <Region name="Take6_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a26371116800@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.6600377559661865" id="34020" type="audio" first-edit="nothing" source-0="32272" master-source-0="32272" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="34025" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002743639866
@@ -28824,7 +28822,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take8_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="35301" type="audio" first-edit="nothing" source-0="35033" master-source-0="35033" channels="1">
+      <Region name="Take8_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.2791051864624023" id="35301" type="audio" first-edit="nothing" source-0="35033" master-source-0="35033" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="35306" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002826101688
@@ -29630,7 +29628,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take28_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="95815" type="audio" first-edit="nothing" source-0="92961" master-source-0="92961" channels="1">
+      <Region name="Take28_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="4.0792684555053711" id="95815" type="audio" first-edit="nothing" source-0="92961" master-source-0="92961" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="95820" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002253295524
@@ -29792,7 +29790,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take30_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a18376844800@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="101082" type="audio" first-edit="nothing" source-0="99463" master-source-0="99463" channels="1">
+      <Region name="Take30_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a18376844800@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="4.3308134078979492" id="101082" type="audio" first-edit="nothing" source-0="99463" master-source-0="99463" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="101087" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003286190347
@@ -29953,7 +29951,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take37_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a615618015" length="a6881593600@a624829630111" sync-position="a615618015" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="5632" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="114154" type="audio" first-edit="nothing" source-0="113896" master-source-0="113896" channels="1">
+      <Region name="Take37_Git_Tob-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a615618015" length="a6881593600@a624829630111" sync-position="a615618015" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="5632" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="3.5440258979797363" id="114154" type="audio" first-edit="nothing" source-0="113896" master-source-0="113896" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="114159" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.000000198537135
@@ -30116,7 +30114,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="368" name="Git_tob-2-Senn" type="audio" orig-track-id="306" pgroup-id="2025-08-10 12.58.48" shared-with-ids="" frozen="0" combine-ops="3">
-      <Region name="Antrieb_Take2_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="3511" type="audio" first-edit="nothing" source-0="3337" master-source-0="3337" channels="1">
+      <Region name="Antrieb_Take2_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.1953959465026855" id="3511" type="audio" first-edit="nothing" source-0="3337" master-source-0="3337" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="3512" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -30271,7 +30269,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Franka_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5221" type="audio" first-edit="nothing" source-0="4329" master-source-0="4329" channels="1">
+      <Region name="Franka_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.4472438097000122" id="5221" type="audio" first-edit="nothing" source-0="4329" master-source-0="4329" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5222" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -30426,7 +30424,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Juwelen_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5657" type="audio" first-edit="nothing" source-0="4569" master-source-0="4569" channels="1">
+      <Region name="Juwelen_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.6071350574493408" id="5657" type="audio" first-edit="nothing" source-0="4569" master-source-0="4569" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="5663" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -30587,7 +30585,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Management_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="6109" type="audio" first-edit="nothing" source-0="4809" master-source-0="4809" channels="1">
+      <Region name="Management_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.3421494960784912" id="6109" type="audio" first-edit="nothing" source-0="4809" master-source-0="4809" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="6110" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -30742,7 +30740,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Schlange_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="6661" type="audio" first-edit="nothing" source-0="5049" master-source-0="5049" channels="1">
+      <Region name="Schlange_Git_tob-2-Senn.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.6210291385650635" id="6661" type="audio" first-edit="nothing" source-0="5049" master-source-0="5049" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="6667" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -30903,7 +30901,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take1_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270291844080" length="a32776588800@a262973751373" sync-position="a270291844080" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.5426026582717896" id="13581" type="audio" first-edit="nothing" source-0="12947" master-source-0="12947" channels="1">
+      <Region name="Take1_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270291844080" length="a32776588800@a262973751373" sync-position="a270291844080" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.9420217275619507" id="13581" type="audio" first-edit="nothing" source-0="12947" master-source-0="12947" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="13586" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -31227,7 +31225,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take5_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="31864" type="audio" first-edit="nothing" source-0="31639" master-source-0="31639" channels="1">
+      <Region name="Take5_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.9976953268051147" id="31864" type="audio" first-edit="nothing" source-0="31639" master-source-0="31639" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="31869" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002174304086
@@ -31388,7 +31386,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take6_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a26371116800@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="33991" type="audio" first-edit="nothing" source-0="32274" master-source-0="32274" channels="1">
+      <Region name="Take6_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a26371116800@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.9778988361358643" id="33991" type="audio" first-edit="nothing" source-0="32274" master-source-0="32274" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="33996" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002743639866
@@ -31549,7 +31547,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take8_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="35272" type="audio" first-edit="nothing" source-0="35035" master-source-0="35035" channels="1">
+      <Region name="Take8_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.1218163967132568" id="35272" type="audio" first-edit="nothing" source-0="35035" master-source-0="35035" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="35277" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002826101688
@@ -32355,7 +32353,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take28_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="95785" type="audio" first-edit="nothing" source-0="92963" master-source-0="92963" channels="1">
+      <Region name="Take28_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="3.3282105922698975" id="95785" type="audio" first-edit="nothing" source-0="92963" master-source-0="92963" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="95790" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002253295524
@@ -32517,7 +32515,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take30_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a18376844800@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="101053" type="audio" first-edit="nothing" source-0="99466" master-source-0="99466" channels="1">
+      <Region name="Take30_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a18376844800@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="3.2049422264099121" id="101053" type="audio" first-edit="nothing" source-0="99466" master-source-0="99466" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="101058" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003286190347
@@ -32678,7 +32676,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take37_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a615618015" length="a6881593600@a624829630111" sync-position="a615618015" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="5632" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="114125" type="audio" first-edit="nothing" source-0="113898" master-source-0="113898" channels="1">
+      <Region name="Take37_Git_tob-2-Senn-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a615618015" length="a6881593600@a624829630111" sync-position="a615618015" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="16" tags="" contents="0" rgroup="5632" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.4271793365478516" id="114125" type="audio" first-edit="nothing" source-0="113898" master-source-0="113898" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="114130" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.000000198537135
@@ -32841,7 +32839,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="436" name="Git_Vinz-Shure" type="audio" orig-track-id="374" pgroup-id="2025-08-10 12.58.48" shared-with-ids="" frozen="0" combine-ops="3">
-      <Region name="Antrieb_Take2_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="3986" type="audio" first-edit="nothing" source-0="3313" master-source-0="3313" channels="1">
+      <Region name="Antrieb_Take2_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2120746374130249" id="3986" type="audio" first-edit="nothing" source-0="3313" master-source-0="3313" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="3987" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -32996,7 +32994,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Franka_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5370" type="audio" first-edit="nothing" source-0="4305" master-source-0="4305" channels="1">
+      <Region name="Franka_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.5848932266235352" id="5370" type="audio" first-edit="nothing" source-0="4305" master-source-0="4305" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5371" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -33151,7 +33149,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Juwelen_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323911991" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5754" type="audio" first-edit="nothing" source-0="4545" master-source-0="4545" channels="1">
+      <Region name="Juwelen_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323911991" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2635984420776367" id="5754" type="audio" first-edit="nothing" source-0="4545" master-source-0="4545" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="5760" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -33312,7 +33310,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Management_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="6321" type="audio" first-edit="nothing" source-0="4785" master-source-0="4785" channels="1">
+      <Region name="Management_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.1222389936447144" id="6321" type="audio" first-edit="nothing" source-0="4785" master-source-0="4785" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="6322" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -33467,7 +33465,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Schlange_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="7147" type="audio" first-edit="nothing" source-0="5025" master-source-0="5025" channels="1">
+      <Region name="Schlange_Git_Vinz-Shure.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.5546436309814453" id="7147" type="audio" first-edit="nothing" source-0="5025" master-source-0="5025" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="7153" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -33628,7 +33626,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take1_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270311027229" length="a32757408000@a262992934522" sync-position="a270311027229" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="13670" type="audio" first-edit="nothing" source-0="12949" master-source-0="12949" channels="1">
+      <Region name="Take1_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270311027229" length="a32757408000@a262992934522" sync-position="a270311027229" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.4125375747680664" id="13670" type="audio" first-edit="nothing" source-0="12949" master-source-0="12949" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="13675" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002000668671
@@ -33790,7 +33788,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take3_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54826733404" length="a19720358400@a294265842370" sync-position="a54826733404" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="16531" type="audio" first-edit="nothing" source-0="16212" master-source-0="16212" channels="1">
+      <Region name="Take3_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54826733404" length="a19720358400@a294265842370" sync-position="a54826733404" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.4125375747680664" id="16531" type="audio" first-edit="nothing" source-0="16212" master-source-0="16212" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="16536" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003906687236
@@ -33953,7 +33951,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take5_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="31952" type="audio" first-edit="nothing" source-0="31641" master-source-0="31641" channels="1">
+      <Region name="Take5_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="31952" type="audio" first-edit="nothing" source-0="31641" master-source-0="31641" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="31957" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002174304086
@@ -34114,7 +34112,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take6_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a24613945600@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="34080" type="audio" first-edit="nothing" source-0="32276" master-source-0="32276" channels="1">
+      <Region name="Take6_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a24613945600@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="34080" type="audio" first-edit="nothing" source-0="32276" master-source-0="32276" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="34085" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002743639866
@@ -34275,7 +34273,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take8_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="35360" type="audio" first-edit="nothing" source-0="35037" master-source-0="35037" channels="1">
+      <Region name="Take8_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="35360" type="audio" first-edit="nothing" source-0="35037" master-source-0="35037" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="35365" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002826101688
@@ -34437,7 +34435,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take12_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a65508442640" length="a26126816000@a369467799531" sync-position="a65508442640" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="2720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="52497" type="audio" first-edit="nothing" source-0="52187" master-source-0="52187" channels="1">
+      <Region name="Take12_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a65508442640" length="a26126816000@a369467799531" sync-position="a65508442640" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="2720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="52497" type="audio" first-edit="nothing" source-0="52187" master-source-0="52187" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="52502" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000004597481904
@@ -34759,7 +34757,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take21_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a242189562558" length="a65993369600@a432748448336" sync-position="a242189562558" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="4576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="84823" type="audio" first-edit="nothing" source-0="67472" master-source-0="67472" channels="1">
+      <Region name="Take21_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a242189562558" length="a65993369600@a432748448336" sync-position="a242189562558" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="4576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7782795429229736" id="84823" type="audio" first-edit="nothing" source-0="67472" master-source-0="67472" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="84828" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -34920,7 +34918,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take24_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33141557865" length="a45534304000@a521932072336" sync-position="a33141557865" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="4624" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="86742" type="audio" first-edit="nothing" source-0="86435" master-source-0="86435" channels="1">
+      <Region name="Take24_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33141557865" length="a45534304000@a521932072336" sync-position="a33141557865" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="4624" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7782795429229736" id="86742" type="audio" first-edit="nothing" source-0="86435" master-source-0="86435" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="86747" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -35081,7 +35079,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take28_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="95875" type="audio" first-edit="nothing" source-0="92966" master-source-0="92966" channels="1">
+      <Region name="Take28_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7287145853042603" id="95875" type="audio" first-edit="nothing" source-0="92966" master-source-0="92966" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="95880" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002253295524
@@ -35243,7 +35241,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take30_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a25627065600@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="101142" type="audio" first-edit="nothing" source-0="99468" master-source-0="99468" channels="1">
+      <Region name="Take30_Git_Vinz-Shure-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a25627065600@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7741252183914185" id="101142" type="audio" first-edit="nothing" source-0="99468" master-source-0="99468" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="101147" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003286190347
@@ -35406,7 +35404,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="504" name="Git_Vinz-Direkt" type="audio" orig-track-id="442" pgroup-id="2025-08-10 12.58.48" shared-with-ids="" frozen="0" combine-ops="3">
-      <Region name="Antrieb_Take2_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="3623" type="audio" first-edit="nothing" source-0="3289" master-source-0="3289" channels="1">
+      <Region name="Antrieb_Take2_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.007664680480957" id="3623" type="audio" first-edit="nothing" source-0="3289" master-source-0="3289" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="3624" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -35561,7 +35559,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Franka_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5344" type="audio" first-edit="nothing" source-0="4281" master-source-0="4281" channels="1">
+      <Region name="Franka_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a29083705600@a58333117178" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="1" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.5848932266235352" id="5344" type="audio" first-edit="nothing" source-0="4281" master-source-0="4281" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="5345" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -35716,7 +35714,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Juwelen_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="5732" type="audio" first-edit="nothing" source-0="4521" master-source-0="4521" channels="1">
+      <Region name="Juwelen_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a943718476" length="a54212064000@a92323948491" sync-position="a943718476" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="2" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7192870378494263" id="5732" type="audio" first-edit="nothing" source-0="4521" master-source-0="4521" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="5738" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -35877,7 +35875,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Management_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="6297" type="audio" first-edit="nothing" source-0="4761" master-source-0="4761" channels="1">
+      <Region name="Management_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a61603168000@a150824934278" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="3" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7383148670196533" id="6297" type="audio" first-edit="nothing" source-0="4761" master-source-0="4761" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="6298" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -36032,7 +36030,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Schlange_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="7063" type="audio" first-edit="nothing" source-0="5001" master-source-0="5001" channels="1">
+      <Region name="Schlange_Git_Vinz-Direkt.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a46423034" length="a40086931200@a217327737978" sync-position="a46423034" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.394423246383667" id="7063" type="audio" first-edit="nothing" source-0="5001" master-source-0="5001" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="7069" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -36193,7 +36191,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take1_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270311027229" length="a32757408000@a262992934522" sync-position="a270311027229" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="13640" type="audio" first-edit="nothing" source-0="12951" master-source-0="12951" channels="1">
+      <Region name="Take1_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a270311027229" length="a32757408000@a262992934522" sync-position="a270311027229" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="5" tags="" contents="0" rgroup="576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.4125375747680664" id="13640" type="audio" first-edit="nothing" source-0="12951" master-source-0="12951" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="13645" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002000668671
@@ -36355,7 +36353,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take3_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54826733404" length="a19720358400@a294265842370" sync-position="a54826733404" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="16501" type="audio" first-edit="nothing" source-0="16214" master-source-0="16214" channels="1">
+      <Region name="Take3_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54826733404" length="a19720358400@a294265842370" sync-position="a54826733404" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="6" tags="" contents="0" rgroup="720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.4125375747680664" id="16501" type="audio" first-edit="nothing" source-0="16214" master-source-0="16214" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="16506" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003906687236
@@ -36518,7 +36516,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take5_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="31922" type="audio" first-edit="nothing" source-0="31643" master-source-0="31643" channels="1">
+      <Region name="Take5_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a141649170791" length="a12501024000@a316523163001" sync-position="a141649170791" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="7" tags="" contents="0" rgroup="1760" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="31922" type="audio" first-edit="nothing" source-0="31643" master-source-0="31643" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="31927" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002174304086
@@ -36679,7 +36677,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take6_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a24613945600@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="34050" type="audio" first-edit="nothing" source-0="32279" master-source-0="32279" channels="1">
+      <Region name="Take6_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a111960655984" length="a24613945600@a327062351754" sync-position="a111960655984" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="8" tags="" contents="0" rgroup="1776" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="34050" type="audio" first-edit="nothing" source-0="32279" master-source-0="32279" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="34055" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002743639866
@@ -36840,7 +36838,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take8_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="35330" type="audio" first-edit="nothing" source-0="35040" master-source-0="35040" channels="1">
+      <Region name="Take8_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a16020770789" length="a12121996800@a351670041556" sync-position="a16020770789" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="9" tags="" contents="0" rgroup="1920" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="35330" type="audio" first-edit="nothing" source-0="35040" master-source-0="35040" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="35335" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002826101688
@@ -37002,7 +37000,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take12_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a65508442640" length="a26126816000@a369467799531" sync-position="a65508442640" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="2720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="52467" type="audio" first-edit="nothing" source-0="52189" master-source-0="52189" channels="1">
+      <Region name="Take12_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a65508442640" length="a26126816000@a369467799531" sync-position="a65508442640" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="10" tags="" contents="0" rgroup="2720" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.2589254379272461" id="52467" type="audio" first-edit="nothing" source-0="52189" master-source-0="52189" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="52472" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000004597481904
@@ -37324,7 +37322,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take21_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a242189562558" length="a65993369600@a432748448336" sync-position="a242189562558" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="4576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="84793" type="audio" first-edit="nothing" source-0="67474" master-source-0="67474" channels="1">
+      <Region name="Take21_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a242189562558" length="a65993369600@a432748448336" sync-position="a242189562558" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="12" tags="" contents="0" rgroup="4576" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7782795429229736" id="84793" type="audio" first-edit="nothing" source-0="67474" master-source-0="67474" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="84798" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -37485,7 +37483,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take24_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33141557865" length="a45534304000@a521932072336" sync-position="a33141557865" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="4624" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="86712" type="audio" first-edit="nothing" source-0="86437" master-source-0="86437" channels="1">
+      <Region name="Take24_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33141557865" length="a45534304000@a521932072336" sync-position="a33141557865" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="13" tags="" contents="0" rgroup="4624" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7782795429229736" id="86712" type="audio" first-edit="nothing" source-0="86437" master-source-0="86437" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="86717" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001000000001
@@ -37646,7 +37644,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take28_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="95845" type="audio" first-edit="nothing" source-0="92968" master-source-0="92968" channels="1">
+      <Region name="Take28_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a54256252326" length="a20648838400@a587402277964" sync-position="a54256252326" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="14" tags="" contents="0" rgroup="5152" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.3501875400543213" id="95845" type="audio" first-edit="nothing" source-0="92968" master-source-0="92968" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="95850" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000002253295524
@@ -37808,7 +37806,7 @@ a409600 1
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Take30_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a25627065600@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="101112" type="audio" first-edit="nothing" source-0="99471" master-source-0="99471" channels="1">
+      <Region name="Take30_Git_Vinz-Direkt-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a33732482906" length="a25627065600@a606663347033" sync-position="a33732482906" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="15" tags="" contents="0" rgroup="5264" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.2344598770141602" id="101112" type="audio" first-edit="nothing" source-0="99471" master-source-0="99471" channels="1">
         <Envelope>
           <AutomationList automation-id="envelope" id="101117" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000003286190347
@@ -67131,7 +67129,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="3661" name="Git_Vinz-Direkt Antrieb Dopplung" type="audio" orig-track-id="3726" pgroup-id="2025-08-10 16.07.39" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Antrieb_Take2_Git_Vinz-Direkt_Dopplung.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="3969" type="audio" first-edit="nothing" source-0="3277" master-source-0="3277" channels="1">
+      <Region name="Antrieb_Take2_Git_Vinz-Direkt_Dopplung.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="2.5352506637573242" id="3969" type="audio" first-edit="nothing" source-0="3277" master-source-0="3277" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="3970" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -67449,7 +67447,7 @@ a409600 1
       </Region>
     </Playlist>
     <Playlist id="3815" name="Git_Vinz-Shure Antrieb Dopplung" type="audio" orig-track-id="3880" pgroup-id="2025-08-10 16.07.39" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Antrieb_Take2_Git_Vinz-Shure_Dopplung.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="4004" type="audio" first-edit="nothing" source-0="3301" master-source-0="3301" channels="1">
+      <Region name="Antrieb_Take2_Git_Vinz-Shure_Dopplung.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a49501235200@a238983801" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1.7786345481872559" id="4004" type="audio" first-edit="nothing" source-0="3301" master-source-0="3301" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="4005" interpolation-style="Curved" time-domain="AudioTime" state="Off">
@@ -68831,7 +68829,6 @@ a409600 1
         <Range id="7433" realtime="0"/>
         <Range id="30663" realtime="0"/>
         <Range id="167537" realtime="0"/>
-        <Range id="183161" realtime="0"/>
         <Range id="84510" realtime="0"/>
         <Range id="135165" realtime="0"/>
         <Range id="135174" realtime="0"/>
@@ -68848,7 +68845,7 @@ a409600 1
       <ExportFormat id="46d56da4-0b70-419a-9e5b-b68f5ba84fa4"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="2025-08-23_DrumsMix"/>
+        <Field name="label" enabled="1" value="2025-08-23_"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
@@ -68920,23 +68917,23 @@ a409600 1
       <Window name="PM-1190-183578" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-30935-183601" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
       <Window name="PM-30935-183601" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-782-216029" visible="0" x-off="343" y-off="109" x-size="937" y-size="455" custom-ui="1"/>
+      <Window name="P-782-216029" visible="0" x-off="305" y-off="419" x-size="937" y-size="455" custom-ui="1"/>
       <Window name="PM-782-216029" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1122-216171" visible="0" x-off="427" y-off="109" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-1122-216171" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-1122-216171" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-1190-216244" visible="0" x-off="427" y-off="109" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-1190-216244" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-1190-216244" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-30935-216481" visible="0" x-off="427" y-off="104" x-size="769" y-size="464" custom-ui="1"/>
+      <Window name="P-30935-216481" visible="0" x-off="389" y-off="414" x-size="769" y-size="464" custom-ui="1"/>
       <Window name="PM-30935-216481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-217416" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-217416-217479" visible="0" x-off="503" y-off="95" x-size="616" y-size="482" custom-ui="1"/>
+      <Window name="P-217416-217479" visible="0" x-off="465" y-off="405" x-size="616" y-size="482" custom-ui="1"/>
       <Window name="PM-217416-217479" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-238-217575" visible="0" x-off="427" y-off="109" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-238-217575" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-238-217575" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-306-217645" visible="0" x-off="427" y-off="109" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="P-306-217645" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-306-217645" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
-        <Object id="rtav 71" height="31"/>
+        <Object id="rtav 71" height="91"/>
         <Object id="automation 75" height="66" visible="0"/>
         <Object id="automation 77" height="66" visible="0"/>
         <Object id="automation 71 12/0/0" height="66" visible="0"/>
@@ -68980,82 +68977,82 @@ a409600 1
             <Object id="control 184051" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 170" height="31" layer-display="Overlaid"/>
+        <Object id="rtav 170" height="91" layer-display="Overlaid"/>
         <Object id="automation 191" height="66" visible="0"/>
         <Object id="automation 193" height="66" visible="0"/>
         <Object id="automation 170 12/0/0" height="66" visible="0"/>
         <Object id="automation 206" height="66" visible="0"/>
-        <Object id="rtav 238" height="66"/>
+        <Object id="rtav 238" height="91"/>
         <Object id="automation 259" height="66" visible="0"/>
         <Object id="automation 261" height="66" visible="0"/>
         <Object id="automation 238 12/0/0" height="66" visible="0"/>
         <Object id="automation 274" height="66" visible="0"/>
-        <Object id="rtav 306" height="66"/>
+        <Object id="rtav 306" height="91"/>
         <Object id="automation 327" height="66" visible="0"/>
         <Object id="automation 329" height="66" visible="0"/>
         <Object id="automation 306 12/0/0" height="66" visible="0"/>
         <Object id="automation 342" height="66" visible="0"/>
-        <Object id="rtav 374" height="31"/>
+        <Object id="rtav 374" height="91"/>
         <Object id="automation 395" height="66" visible="0"/>
         <Object id="automation 397" height="66" visible="0"/>
         <Object id="automation 374 12/0/0" height="66" visible="0"/>
         <Object id="automation 410" height="66" visible="0"/>
-        <Object id="rtav 442" height="31"/>
+        <Object id="rtav 442" height="91"/>
         <Object id="automation 463" height="66" visible="0"/>
         <Object id="automation 465" height="66" visible="0"/>
         <Object id="automation 442 12/0/0" height="66" visible="0"/>
         <Object id="automation 478" height="66" visible="0"/>
-        <Object id="rtav 510" height="31"/>
+        <Object id="rtav 510" height="91"/>
         <Object id="automation 531" height="66" visible="0"/>
         <Object id="automation 533" height="66" visible="0"/>
         <Object id="automation 510 12/0/0" height="66" visible="0"/>
         <Object id="automation 546" height="66" visible="0"/>
-        <Object id="rtav 578" height="31"/>
+        <Object id="rtav 578" height="91"/>
         <Object id="automation 599" height="66" visible="0"/>
         <Object id="automation 601" height="66" visible="0"/>
         <Object id="automation 578 12/0/0" height="66" visible="0"/>
         <Object id="automation 614" height="66" visible="0"/>
-        <Object id="rtav 646" height="31"/>
+        <Object id="rtav 646" height="91"/>
         <Object id="automation 667" height="66" visible="0"/>
         <Object id="automation 669" height="66" visible="0"/>
         <Object id="automation 646 12/0/0" height="66" visible="0"/>
         <Object id="automation 682" height="66" visible="0"/>
-        <Object id="rtav 714" height="101" layer-display="Overlaid"/>
+        <Object id="rtav 714" height="126" layer-display="Overlaid"/>
         <Object id="automation 735" height="66" visible="0"/>
         <Object id="automation 737" height="66" visible="0"/>
         <Object id="automation 714 12/0/0" height="66" visible="0"/>
         <Object id="automation 750" height="66" visible="0"/>
-        <Object id="rtav 782" height="31"/>
+        <Object id="rtav 782" height="91"/>
         <Object id="automation 803" height="66" visible="0"/>
         <Object id="automation 805" height="66" visible="0"/>
         <Object id="automation 782 12/0/0" height="66" visible="0"/>
         <Object id="automation 818" height="66" visible="0"/>
-        <Object id="rtav 850" height="31"/>
+        <Object id="rtav 850" height="91"/>
         <Object id="automation 871" height="66" visible="0"/>
         <Object id="automation 873" height="66" visible="0"/>
         <Object id="automation 850 12/0/0" height="66" visible="0"/>
         <Object id="automation 886" height="66" visible="0"/>
-        <Object id="rtav 918" height="31"/>
+        <Object id="rtav 918" height="91"/>
         <Object id="automation 939" height="66" visible="0"/>
         <Object id="automation 941" height="66" visible="0"/>
         <Object id="automation 918 12/0/0" height="66" visible="0"/>
         <Object id="automation 954" height="66" visible="0"/>
-        <Object id="rtav 986" height="31"/>
+        <Object id="rtav 986" height="91"/>
         <Object id="automation 1007" height="66" visible="0"/>
         <Object id="automation 1009" height="66" visible="0"/>
         <Object id="automation 986 12/0/0" height="66" visible="0"/>
         <Object id="automation 1022" height="66" visible="0"/>
-        <Object id="rtav 1054" height="31"/>
+        <Object id="rtav 1054" height="91"/>
         <Object id="automation 1075" height="66" visible="0"/>
         <Object id="automation 1077" height="66" visible="0"/>
         <Object id="automation 1054 12/0/0" height="66" visible="0"/>
         <Object id="automation 1090" height="66" visible="0"/>
-        <Object id="rtav 1122" height="31"/>
+        <Object id="rtav 1122" height="91"/>
         <Object id="automation 1143" height="66" visible="0"/>
         <Object id="automation 1145" height="66" visible="0"/>
         <Object id="automation 1122 12/0/0" height="66" visible="0"/>
         <Object id="automation 1158" height="66" visible="0"/>
-        <Object id="rtav 1190" height="31"/>
+        <Object id="rtav 1190" height="91"/>
         <Object id="automation 1211" height="66" visible="0"/>
         <Object id="automation 1213" height="66" visible="0"/>
         <Object id="automation 1190 12/0/0" height="66" visible="0"/>
@@ -69760,7 +69757,7 @@ a409600 1
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 3726" height="31"/>
+        <Object id="rtav 3726" height="91"/>
         <Object id="automation 3785" height="66" visible="0"/>
         <Object id="automation 3782" height="66" visible="0"/>
         <Object id="automation 3726 12/0/0" height="66" visible="0"/>
@@ -69770,7 +69767,7 @@ a409600 1
             <Object id="control 3785" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 3880" height="31"/>
+        <Object id="rtav 3880" height="91"/>
         <Object id="automation 3939" height="66" visible="0"/>
         <Object id="automation 3936" height="66" visible="0"/>
         <Object id="automation 3880 12/0/0" height="66" visible="0"/>
@@ -69780,7 +69777,7 @@ a409600 1
             <Object id="control 3939" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 6753" height="31"/>
+        <Object id="rtav 6753" height="91"/>
         <Object id="automation 6812" height="66" visible="0"/>
         <Object id="automation 6809" height="66" visible="0"/>
         <Object id="automation 6753 12/0/0" height="66" visible="0"/>
@@ -69790,7 +69787,7 @@ a409600 1
             <Object id="control 6812" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 6905" height="31"/>
+        <Object id="rtav 6905" height="91"/>
         <Object id="automation 6964" height="66" visible="0"/>
         <Object id="automation 6961" height="66" visible="0"/>
         <Object id="automation 6905 12/0/0" height="66" visible="0"/>
@@ -69800,12 +69797,12 @@ a409600 1
             <Object id="control 6964" visible="0"/>
           </Object>
         </Object>
-        <Object id="rtav 30935" height="31"/>
+        <Object id="rtav 30935" height="91"/>
         <Object id="automation 30939" height="66" visible="0"/>
         <Object id="automation 30941" height="66" visible="0"/>
         <Object id="automation 30935 12/0/0" height="66" visible="0"/>
         <Object id="automation 30954" height="66" visible="0"/>
-        <Object id="rtav 30975" height="31"/>
+        <Object id="rtav 30975" height="91"/>
         <Object id="automation 30979" height="66" visible="0"/>
         <Object id="automation 30981" height="66" visible="0"/>
         <Object id="automation 30975 12/0/0" height="66" visible="0"/>
@@ -69947,7 +69944,7 @@ a409600 1
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
-        <Object id="rtav 217416" height="66"/>
+        <Object id="rtav 217416" height="91"/>
         <Object id="automation 217420" height="66" visible="0"/>
         <Object id="automation 217422" height="66" visible="0"/>
         <Object id="automation 217416 12/0/0" height="66" visible="0"/>
