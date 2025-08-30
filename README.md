@@ -4,6 +4,12 @@ aufgenommen am 9.+10. August 2025 in Hamburch
 
 ## Mixlog
 
+30.08.2025
+- Calf Equalizer durch x42 ersetzt
+- Hihat Phase umgedreht, weil die genau umgekehrt zu Ride und Snare ist
+- Lautstärken: Bin nochmal durch alle Kompressoren gegangen und habe Attack & Release angepasst, das macht ganz schön viel aus!
+- Juwelen Bass lauter gemacht bei Juwelen, Glockenmann, Dingeldongel, Tanker, Schlange letzter Teil
+
 23.08.2025
 - Schlagzeug: Wurst und Kick vertragen sich leider gar nicht. **Wenn bei Wurst die Phase umgedreht wird, hat die Kick viel mehr Druck!**
 - Schlagzeug EQs:
