@@ -1,35 +1,3 @@
-# Gitarren doppeln:
-### 01 Magma
-- Vin: Bridge + letzten Refrain + das Strophen-Lick
-- ~~Tob: Bridge + letzten Refrain + das Strophen-Lick~~
-### 02 Antrieb
-- ~~Tob: alles außer ruhige Bridge~~
-- Vin: kleine Schnörkel
-~~### 03 Glockenmann~~
-- ~~Vin: alles (mehr Hall)~~
-- ~~Tob: Refrain~~
-### 04 Franka, Franka
-- Vin: Licks, Refrain, B2
-- ~~Tob: Strophe ungedämpft, Refrain, B2~~
-### 05 Juwelenraub
-- Vin: B1
-- ~~Tob: Intro, erste Hälfte B1, Melodie Refrain, F1~~
-### 06 Schlangenmensch
-- Vin: Strophe, *Refrain?*
-- ~~Tob: Refrain~~
-### 07 Leiter
-- Vin: Strophe unverzerrt, Refrain Chords, dolles Finale
-- ~~Tob: Strophe, Refrain Dudel, *Licks?*, dolles Finale~~
-~~### 08 DingelDongel~~
-- ~~Tob: Melodie Intro + Outro, Refrain~~
-### 09 Tanker
-- ~~Tob: tapping Git Finale, dicke Schläge in der Bridge~~
-- Vin: dicke Schläge in der Strophe und Bridge, Finale
-### 10 9€
-- Vin: alles (in abgespeckt) außer Finale
-- ~~Tob: letzte Bridge, Finale~~
-<br><br><br>
-
 # Gesang
 ### 01 Magma
 - Matt: Refrain
@@ -96,3 +64,35 @@
 - alles schreiben
 ### 10 9€
 - fertig, @Daff?
+<br><br><br>
+
+# Gitarren doppeln:
+### 01 Magma
+- ~~Vin: Bridge + letzten Refrain + das Strophen-Lick~~
+- ~~Tob: Bridge + letzten Refrain + das Strophen-Lick~~
+### 02 Antrieb
+- ~~Tob: alles außer ruhige Bridge~~
+- ~~Vin: kleine Schnörkel, Finale~~
+### 03 Glockenmann
+- ~~Vin: alles (mehr Hall)~~
+- ~~Tob: Refrain~~
+### 04 Franka, Franka
+- ~~Vin: Licks, Refrain, B2~~
+- ~~Tob: Strophe ungedämpft, Refrain, B2~~
+### 05 Juwelenraub
+- ~~Vin: B1~~
+- ~~Tob: Intro, erste Hälfte B1, Melodie Refrain, F1~~
+### 06 Schlangenmensch
+- ~~Vin: Strophe, Licks~~
+- ~~Tob: Refrain~~
+### 07 Leiter
+- ~~Vin: Strophe unverzerrt, Refrain Chords~~
+- ~~Tob: Strophe, Refrain Dudel, *Licks?*, dolles Finale~~
+### 08 DingelDongel
+- ~~Tob: Melodie Intro + Outro, Refrain~~
+### 09 Tanker
+- ~~Tob: tapping Git Finale, dicke Schläge in der Bridge~~
+- ~~Vin: Finale~~
+### 10 9€
+- ~~Vin: alles außer Finale und Bridge vor Finale~~
+- ~~Tob: letzte Bridge, Finale~~
