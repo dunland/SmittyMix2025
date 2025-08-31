@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <Session version="7003" name="WELLNESS-2025_KOMPLETT" sample-rate="44100" session-range-is-free="0" id-counter="301546" rg-counter="1234" name-counter="1" event-counter="6080" vca-counter="1">
   <ProgramVersion created-with="Ardour 8.2" modified-with="Ardour 8.12"/>
   <EngineHints backend="ALSA" input-device="Scarlett 18i20 USB" output-device="Scarlett 18i20 USB"/>
+=======
+<Session version="7003" name="WELLNESS-2025_KOMPLETT" sample-rate="44100" session-range-is-free="0" id-counter="219561" rg-counter="628" name-counter="1" event-counter="6080" vca-counter="1">
+  <ProgramVersion created-with="Ardour 8.2" modified-with="Ardour 8.12"/>
+  <EngineHints backend="PulseAudio" input-device="Default Playback" output-device="Default Playback"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
   <MIDIPorts>
     <Port name="Cue Control in" type="midi" direction="Input"/>
     <Port name="MIDI Clock out" type="midi" direction="Output"/>
@@ -21442,6 +21448,7 @@ a409600 1
     <Region name="Take37_Git_Tob-Shure-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a7497216000@a738645152000" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="114146" type="audio" first-edit="nothing" source-0="113896" master-source-0="113896" channels="1"/>
     <Region name="Take39_Git_tob-2-Senn Glocke Dopplung-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a7792128000@a738750009600" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="114347" type="audio" first-edit="nothing" source-0="114328" master-source-0="114328" channels="1"/>
     <Region name="Take39_Git_Tob-Shure Glocke Dopplung-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a7792128000@a738750009600" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="114376" type="audio" first-edit="nothing" source-0="114330" master-source-0="114330" channels="1"/>
+<<<<<<< HEAD
     <Region name="Take40_Git_TobDoppel-e609-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a15682662400@a439715347200" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="251991" type="audio" first-edit="nothing" source-0="251372" master-source-0="251372" channels="1"/>
     <Region name="Take40_Git_TobDoppel-e609-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a15682662400@a439715347200" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="10352" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="251999" type="audio" first-edit="nothing" source-0="251372" master-source-0="251372" channels="1"/>
     <Region name="Take40_Git_TobDoppel-SM57-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a15682662400@a439715347200" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="252021" type="audio" first-edit="nothing" source-0="251368" master-source-0="251368" channels="1"/>
@@ -21706,6 +21713,8 @@ a409600 1
     <Region name="Take199_Git_VinDoppel-e609 1-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a366899200@a376377401600" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="301261" type="audio" first-edit="nothing" source-0="301252" master-source-0="301252" channels="1"/>
     <Region name="Take199_Git_VinDoppel-e609 1-1.1" muted="0" opaque="0" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a366899200@a376377401600" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="4" tags="" contents="0" rgroup="19376" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="301269" type="audio" first-edit="nothing" source-0="301252" master-source-0="301252" channels="1"/>
     <Region name="Take200_Git_VinDoppel-e609-1" muted="0" opaque="0" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="a0" length="a19745894400@a376148646400" sync-position="a0" ancestral-start="a0" ancestral-length="a0@a0" stretch="1" shift="1" layering-index="0" tags="" contents="0" rgroup="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" fade-before-fx="0" scale-amplitude="1" id="301347" type="audio" first-edit="nothing" source-0="301333" master-source-0="301333" channels="1"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
   </Regions>
   <CompoundAssociations>
     <CompoundAssociation copy="24988" original="13581"/>
@@ -21869,6 +21878,7 @@ a409600 1
       <Controllable name="solo-safe" id="87" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="99" direction="Input" default-type="audio">
         <Port name="Master/audio_in 1" type="audio" direction="Input">
+<<<<<<< HEAD
           <Connection other="Gitarre_Vincent/audio_out 1"/>
           <Connection other="Bass/audio_out 1"/>
           <Connection other="Drums/audio_out 1"/>
@@ -21877,17 +21887,27 @@ a409600 1
           <Connection other="Git_TobDoppel-e609/audio_out 1"/>
           <Connection other="Git_VinDoppel-e609 1/audio_out 1"/>
           <Connection other="Git_VinDoppel-e609/audio_out 1"/>
+=======
+          <Connection other="Gitarren_Tobias/audio_out 1"/>
+          <Connection other="Bass/audio_out 1"/>
+          <Connection other="Drums/audio_out 1"/>
+          <Connection other="Git_Tob-Shure Glocke Dopplung/audio_out 1"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Connection other="Git_Vinz-Direkt Möwe Dopplung/audio_out 1"/>
           <Connection other="Git_Vinz-Direkt/audio_out 1"/>
           <Connection other="Git_Vinz-Shure Möwe Dopplung/audio_out 1"/>
           <Connection other="Git_Vinz-Shure/audio_out 1"/>
           <Connection other="Git_tob-2-Senn Glocke Dopplung/audio_out 1"/>
+<<<<<<< HEAD
           <Connection other="Gitarre_Vincent/audio_out 1"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Connection other="Gitarren_Tobias/audio_out 1"/>
           <Connection other="Raum_AKG_P420/audio_out 1"/>
           <Connection other="Raum_SpaceEcho/audio_out 1"/>
         </Port>
         <Port name="Master/audio_in 2" type="audio" direction="Input">
+<<<<<<< HEAD
           <Connection other="Gitarre_Vincent/audio_out 2"/>
           <Connection other="Bass/audio_out 2"/>
           <Connection other="Drums/audio_out 2"/>
@@ -21896,12 +21916,21 @@ a409600 1
           <Connection other="Git_TobDoppel-e609/audio_out 2"/>
           <Connection other="Git_VinDoppel-e609 1/audio_out 2"/>
           <Connection other="Git_VinDoppel-e609/audio_out 2"/>
+=======
+          <Connection other="Gitarren_Tobias/audio_out 2"/>
+          <Connection other="Bass/audio_out 2"/>
+          <Connection other="Drums/audio_out 2"/>
+          <Connection other="Git_Tob-Shure Glocke Dopplung/audio_out 2"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Connection other="Git_Vinz-Direkt Möwe Dopplung/audio_out 2"/>
           <Connection other="Git_Vinz-Direkt/audio_out 2"/>
           <Connection other="Git_Vinz-Shure Möwe Dopplung/audio_out 2"/>
           <Connection other="Git_Vinz-Shure/audio_out 2"/>
           <Connection other="Git_tob-2-Senn Glocke Dopplung/audio_out 2"/>
+<<<<<<< HEAD
           <Connection other="Gitarre_Vincent/audio_out 2"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Connection other="Gitarren_Tobias/audio_out 2"/>
           <Connection other="Raum_AKG_P420/audio_out 2"/>
           <Connection other="Raum_SpaceEcho/audio_out 2"/>
@@ -21911,8 +21940,11 @@ a409600 1
         <Port name="Master/audio_out 1" type="audio" direction="Output">
           <ExtConnection for="ALSA;;HDA Intel PCH"/>
           <ExtConnection for="ALSA;;HDA Intel PCH" other="system:playback_1"/>
+<<<<<<< HEAD
           <ExtConnection for="ALSA;;Scarlett 18i20 USB"/>
           <ExtConnection for="ALSA;;Scarlett 18i20 USB" other="system:playback_1"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="system:playback_1"/>
           <ExtConnection for="JACK;ALSA;HDA Intel PCH"/>
@@ -21923,8 +21955,11 @@ a409600 1
         <Port name="Master/audio_out 2" type="audio" direction="Output">
           <ExtConnection for="ALSA;;HDA Intel PCH"/>
           <ExtConnection for="ALSA;;HDA Intel PCH" other="system:playback_2"/>
+<<<<<<< HEAD
           <ExtConnection for="ALSA;;Scarlett 18i20 USB"/>
           <ExtConnection for="ALSA;;Scarlett 18i20 USB" other="system:playback_2"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <ExtConnection for="JACK"/>
           <ExtConnection for="JACK" other="system:playback_2"/>
           <ExtConnection for="JACK;ALSA;HDA Intel PCH"/>
@@ -22169,7 +22204,11 @@ a409600 1
       <Slavable/>
     </Route>
     <Route version="7003" id="170" name="Raum_AKG_P420" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Raum" audio-playlist="232" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="4289374975"/>
+=======
+      <PresentationInfo order="1" flags="AudioTrack,OrderSet" color="4289374975"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="195" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="201" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="203" flags="Toggle" value="0" solo-safe="0"/>
@@ -22259,7 +22298,11 @@ a409600 1
       <Controllable name="rec-enable" id="227" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="238" name="Git_Tob-Shure" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre_Tobias" audio-playlist="300" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="3563743999"/>
+=======
+      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3563743999"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="263" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="269" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="271" flags="Toggle" value="0" solo-safe="0"/>
@@ -22272,9 +22315,17 @@ a409600 1
       <IO name="Git_Tob-Shure" id="284" direction="Output" default-type="audio">
         <Port name="Git_Tob-Shure/audio_out 1" type="audio" direction="Output">
           <Connection other="Gitarren_Tobias/audio_in 1"/>
+<<<<<<< HEAD
         </Port>
         <Port name="Git_Tob-Shure/audio_out 2" type="audio" direction="Output">
           <Connection other="Gitarren_Tobias/audio_in 2"/>
+=======
+          <Connection other="Gitarren_Tobias/audio_in 1"/>
+        </Port>
+        <Port name="Git_Tob-Shure/audio_out 2" type="audio" direction="Output">
+          <Connection other="Gitarren_Tobias/audio_in 2"/>
+          <Connection other="Gitarren_Tobias/audio_in 2"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         </Port>
         <Port name="Git_Tob-Shure/midi_out 1" type="midi" direction="Output"/>
       </IO>
@@ -22387,7 +22438,11 @@ a409600 1
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="0"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="0"/>
@@ -22472,7 +22527,11 @@ a409600 1
       <Controllable name="rec-enable" id="295" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="306" name="Git_tob-2-Senn" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre_Tobias" audio-playlist="368" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="2148865535"/>
+=======
+      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="2148865535"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="331" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="337" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="339" flags="Toggle" value="0" solo-safe="0"/>
@@ -22485,9 +22544,17 @@ a409600 1
       <IO name="Git_tob-2-Senn" id="352" direction="Output" default-type="audio">
         <Port name="Git_tob-2-Senn/audio_out 1" type="audio" direction="Output">
           <Connection other="Gitarren_Tobias/audio_in 1"/>
+<<<<<<< HEAD
         </Port>
         <Port name="Git_tob-2-Senn/audio_out 2" type="audio" direction="Output">
           <Connection other="Gitarren_Tobias/audio_in 2"/>
+=======
+          <Connection other="Gitarren_Tobias/audio_in 1"/>
+        </Port>
+        <Port name="Git_tob-2-Senn/audio_out 2" type="audio" direction="Output">
+          <Connection other="Gitarren_Tobias/audio_in 2"/>
+          <Connection other="Gitarren_Tobias/audio_in 2"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
@@ -22599,7 +22666,11 @@ a409600 1
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
@@ -22684,7 +22755,11 @@ a409600 1
       <Controllable name="rec-enable" id="363" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="374" name="Git_Vinz-Shure" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre-Vinzent" audio-playlist="436" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="1426063615"/>
+=======
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="1426063615"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="399" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="405" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="407" flags="Toggle" value="0" solo-safe="0"/>
@@ -22778,7 +22853,11 @@ a409600 1
       <Controllable name="rec-enable" id="431" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="442" name="Git_Vinz-Direkt" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre-Vinzent" audio-playlist="504" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="2861447679"/>
+=======
+      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="2861447679"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="467" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="473" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="475" flags="Toggle" value="0" solo-safe="0"/>
@@ -22872,7 +22951,11 @@ a409600 1
       <Controllable name="rec-enable" id="499" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="510" name="Bass-SM57" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Bass" audio-playlist="572" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="4293569279"/>
+=======
+      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="4293569279"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="535" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="541" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="543" flags="Toggle" value="0" solo-safe="0"/>
@@ -22962,7 +23045,11 @@ a409600 1
       <Controllable name="rec-enable" id="567" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="578" name="Bass-direkt" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Bass" audio-playlist="640" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="3568986879"/>
+=======
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3568986879"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="603" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="609" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="611" flags="Toggle" value="0" solo-safe="0"/>
@@ -23052,7 +23139,11 @@ a409600 1
       <Controllable name="rec-enable" id="635" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="646" name="Wurst" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="708" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="2154108415"/>
+=======
+      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="2154108415"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="671" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="677" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="679" flags="Toggle" value="0" solo-safe="0"/>
@@ -23190,7 +23281,11 @@ a409600 1
       <Controllable name="rec-enable" id="703" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="714" name="Raum_SpaceEcho" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Raum" audio-playlist="776" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="1430257919"/>
+=======
+      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="1430257919"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="739" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="745" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="747" flags="Toggle" value="0" solo-safe="0"/>
@@ -23280,7 +23375,11 @@ a409600 1
       <Controllable name="rec-enable" id="771" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="782" name="Snare-906" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="844" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="875853823"/>
+=======
+      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="875853823"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="807" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="813" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="815" flags="Toggle" value="0" solo-safe="0"/>
@@ -23455,7 +23554,11 @@ a409600 1
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state3">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
@@ -23540,7 +23643,11 @@ a409600 1
       <Controllable name="rec-enable" id="839" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="850" name="Tom1" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="912" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="23" flags="AudioTrack,OrderSet" color="2155918335"/>
+=======
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2155918335"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="875" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="881" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="883" flags="Toggle" value="0" solo-safe="0"/>
@@ -23631,7 +23738,11 @@ a409600 1
       <Controllable name="rec-enable" id="907" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="918" name="Tom2" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="980" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="24" flags="AudioTrack,OrderSet" color="1448515071"/>
+=======
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="1448515071"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="943" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="949" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="951" flags="Toggle" value="0" solo-safe="0"/>
@@ -23721,7 +23832,11 @@ a409600 1
       <Controllable name="rec-enable" id="975" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="986" name="Standtom" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="1048" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="25" flags="AudioTrack,OrderSet" color="437934591"/>
+=======
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="437934591"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="1011" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1017" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1019" flags="Toggle" value="0" solo-safe="0"/>
@@ -23858,7 +23973,11 @@ a409600 1
       <Controllable name="rec-enable" id="1043" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="1054" name="Kick-52A" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="1116" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="26" flags="AudioTrack,OrderSet" color="151600127"/>
+=======
+      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="151600127"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="1079" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1085" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1087" flags="Toggle" value="0" solo-safe="0"/>
@@ -23949,7 +24068,11 @@ a409600 1
       <Controllable name="rec-enable" id="1111" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="1122" name="Hihat-SM57" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="1184" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="27" flags="AudioTrack,OrderSet" color="763899391"/>
+=======
+      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="763899391"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="1147" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1153" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1155" flags="Toggle" value="0" solo-safe="0"/>
@@ -24077,7 +24200,11 @@ a409600 1
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
@@ -24162,7 +24289,11 @@ a409600 1
       <Controllable name="rec-enable" id="1179" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="1190" name="Ride" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Drums" audio-playlist="1252" alignment-choice="Automatic" mode="Normal">
+<<<<<<< HEAD
       <PresentationInfo order="28" flags="AudioTrack,OrderSet" color="2295105791"/>
+=======
+      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="2295105791"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="1215" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1221" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1223" flags="Toggle" value="0" solo-safe="0"/>
@@ -24210,7 +24341,11 @@ a409600 1
       </Pannable>
       <Processor id="1245" name="recorder:Ride" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
       <Processor id="1244" name="player:Ride" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+<<<<<<< HEAD
       <Processor id="1193" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="23">
+=======
+      <Processor id="1193" name="TriggerBox" active="1" user-latency="0" use-user-latency="0" type="triggerbox" data-type="audio" order="19">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Triggers>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="0" segment-tempo="0" start="a0"/>
           <Trigger name="" gain="1" color="3200171775" follow-count="1" use-follow-length="0" follow-length="1|0|0" legato="0" velocity-effect="0" follow-action-probability="0" quantization="1|0|0" launch-style="OneShot" follow-action-0="Again:0" follow-action-1="Stop:0" stretchable="1" cue_isolated="0" allow_patch_changes="1" stretch_mode="Crisp" index="1" segment-tempo="0" start="a0"/>
@@ -24337,7 +24472,11 @@ a409600 1
           <Channelmap type="audio" from="0" to="0"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
@@ -24421,8 +24560,13 @@ a409600 1
       <Controllable name="rec-safe" id="1249" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="1247" flags="Toggle,RealTime" value="0"/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="3726" name="Git_Vinz-Direkt Möwe Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre Vin Doppel" audio-playlist="3661" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="2861447679"/>
+=======
+    <Route version="7003" id="3726" name="Git_Vinz-Direkt Möwe Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="3661" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="2861447679"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="3689" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3789" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3790" flags="Toggle" value="0" solo-safe="0"/>
@@ -24515,8 +24659,13 @@ a409600 1
       <Controllable name="rec-safe" id="3804" flags="Toggle,RealTime" value="1"/>
       <Controllable name="rec-enable" id="3805" flags="Toggle,RealTime" value="0"/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="3880" name="Git_Vinz-Shure Möwe Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre Vin Doppel" audio-playlist="3815" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="1426063615"/>
+=======
+    <Route version="7003" id="3880" name="Git_Vinz-Shure Möwe Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="3815" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="1426063615"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="3843" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="3943" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="3944" flags="Toggle" value="0" solo-safe="0"/>
@@ -24609,8 +24758,13 @@ a409600 1
       <Controllable name="rec-safe" id="3958" flags="Toggle,RealTime" value="1"/>
       <Controllable name="rec-enable" id="3959" flags="Toggle,RealTime" value="0"/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="6753" name="Git_tob-2-Senn Glocke Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre Tob Doppel" audio-playlist="6688" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="2148865535"/>
+=======
+    <Route version="7003" id="6753" name="Git_tob-2-Senn Glocke Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="6688" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="2148865535"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="6716" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="6816" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="6817" flags="Toggle" value="0" solo-safe="0"/>
@@ -24701,8 +24855,13 @@ a409600 1
       <Controllable name="rec-safe" id="6831" flags="Toggle,RealTime" value="1"/>
       <Controllable name="rec-enable" id="6832" flags="Toggle,RealTime" value="0"/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="6905" name="Git_Tob-Shure Glocke Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre Tob Doppel" audio-playlist="6840" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3563743999"/>
+=======
+    <Route version="7003" id="6905" name="Git_Tob-Shure Glocke Dopplung" default-type="audio" strict-io="0" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="6840" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="3563743999"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="6868" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="6968" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="6969" flags="Toggle" value="0" solo-safe="0"/>
@@ -24794,7 +24953,11 @@ a409600 1
       <Controllable name="rec-enable" id="6984" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="7003" id="30935" name="Drums" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak">
+<<<<<<< HEAD
       <PresentationInfo order="4" flags="AudioBus,OrderSet" color="2855877119"/>
+=======
+      <PresentationInfo order="23" flags="AudioBus,OrderSet" color="2855877119"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="30943" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="30949" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="30951" flags="Toggle" value="0" solo-safe="0"/>
@@ -24964,7 +25127,11 @@ a409600 1
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
+<<<<<<< HEAD
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state2">
+=======
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Port symbol="enable" value="1"/>
           <Port symbol="gain" value="0"/>
           <Port symbol="peakreset" value="1"/>
@@ -25046,7 +25213,11 @@ a409600 1
       <Slavable/>
     </Route>
     <Route version="7003" id="30975" name="Bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak">
+<<<<<<< HEAD
       <PresentationInfo order="3" flags="AudioBus,OrderSet" color="4289374975"/>
+=======
+      <PresentationInfo order="14" flags="AudioBus,OrderSet" color="4289374975"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="30983" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="30989" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="30991" flags="Toggle" value="0" solo-safe="0"/>
@@ -25161,13 +25332,19 @@ a409600 1
       </Processor>
       <Slavable/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="217416" name="Gitarren_Tobias" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak">
       <PresentationInfo order="1" flags="AudioBus,OrderSet" color="2855877119"/>
+=======
+    <Route version="7003" id="217416" name="Gitarren_Tobias" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre_Tobias">
+      <PresentationInfo order="5" flags="AudioBus,OrderSet" color="2855877119"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Controllable name="solo" id="217424" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="217430" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="217432" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Gitarren_Tobias" id="217444" direction="Input" default-type="audio">
         <Port name="Gitarren_Tobias/audio_in 1" type="audio" direction="Input">
+<<<<<<< HEAD
           <Connection other="Git_Tob-Shure Glocke Dopplung/audio_out 1"/>
           <Connection other="Git_Tob-Shure/audio_out 1"/>
           <Connection other="Git_TobDoppel-e609 1/audio_out 1"/>
@@ -25181,15 +25358,30 @@ a409600 1
           <Connection other="Git_TobDoppel-e609 1/audio_out 2"/>
           <Connection other="Git_TobDoppel-e609/audio_out 2"/>
           <Connection other="Git_tob-2-Senn Glocke Dopplung/audio_out 2"/>
+=======
+          <Connection other="Git_Tob-Shure/audio_out 1"/>
+          <Connection other="Git_tob-2-Senn/audio_out 1"/>
+        </Port>
+        <Port name="Gitarren_Tobias/audio_in 2" type="audio" direction="Input">
+          <Connection other="Git_Tob-Shure/audio_out 2"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
           <Connection other="Git_tob-2-Senn/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Gitarren_Tobias" id="217445" direction="Output" default-type="audio">
         <Port name="Gitarren_Tobias/audio_out 1" type="audio" direction="Output">
           <Connection other="Master/audio_in 1"/>
+<<<<<<< HEAD
         </Port>
         <Port name="Gitarren_Tobias/audio_out 2" type="audio" direction="Output">
           <Connection other="Master/audio_in 2"/>
+=======
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port name="Gitarren_Tobias/audio_out 2" type="audio" direction="Output">
+          <Connection other="Master/audio_in 2"/>
+          <Connection other="Master/audio_in 2"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         </Port>
       </IO>
       <MuteMaster mute-point="PostFader,Listen,Main,SurroundSend" muted="0"/>
@@ -25285,6 +25477,7 @@ a409600 1
       </Processor>
       <Slavable/>
     </Route>
+<<<<<<< HEAD
     <Route version="7003" id="235101" name="Git_TobDoppel-e609" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="Gitarre Tob Doppel" audio-playlist="235163" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="9" flags="AudioTrack,OrderSet,TriggerTrack" color="2855877119"/>
       <Controllable name="solo" id="235126" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
@@ -25734,6 +25927,8 @@ a409600 1
       </Processor>
       <Slavable/>
     </Route>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
   </Routes>
   <Playlists>
     <Playlist id="232" name="Raum_AKG_P420" type="audio" orig-track-id="170" pgroup-id="2025-08-10 12.58.48" shared-with-ids="" frozen="0" combine-ops="4">
@@ -42715,6 +42910,10 @@ a409600 1
           <AutomationList automation-id="envelope" id="216669" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
             <events>a0 1.0000001383757846
 a15383673600 1
+<<<<<<< HEAD
+=======
+a15383673600 1
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
 </events>
           </AutomationList>
         </Envelope>
@@ -80155,11 +80354,17 @@ a409600 1
   <RouteGroups>
     <RouteGroup id="1407" rgba="1413415167" used-to-share-gain="0" name="Drums" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="646 782 850 918 986 1054 1122 1190 "/>
     <RouteGroup id="1415" rgba="2538219519" used-to-share-gain="0" name="Bass" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="510 578 "/>
+<<<<<<< HEAD
     <RouteGroup id="1419" rgba="3487192575" used-to-share-gain="0" name="Gitarre_Tobias" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="238 306 "/>
     <RouteGroup id="1421" rgba="3900178687" used-to-share-gain="0" name="Gitarre-Vinzent" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="374 442 "/>
     <RouteGroup id="3507" rgba="4278124287" used-to-share-gain="0" name="Raum" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="714 170 "/>
     <RouteGroup id="252369" rgba="4205166079" used-to-share-gain="0" name="Gitarre Tob Doppel" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="235101 6905 6753 251440 "/>
     <RouteGroup id="252371" rgba="2716113919" used-to-share-gain="0" name="Gitarre Vin Doppel" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="235249 251740 3880 3726 "/>
+=======
+    <RouteGroup id="1419" rgba="3487192575" used-to-share-gain="0" name="Gitarre_Tobias" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="238 306 217416 "/>
+    <RouteGroup id="1421" rgba="3900178687" used-to-share-gain="0" name="Gitarre-Vinzent" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="374 442 "/>
+    <RouteGroup id="3507" rgba="4278124287" used-to-share-gain="0" name="Raum" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" sursend_enable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="714 170 "/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
   </RouteGroups>
   <Click>
     <IO name="Click" id="68" direction="Output" default-type="audio">
@@ -80249,6 +80454,10 @@ a409600 1
         <Range id="167537" realtime="0"/>
         <Range id="84510" realtime="0"/>
         <Range id="135165" realtime="0"/>
+<<<<<<< HEAD
+=======
+        <Range id="135174" realtime="0"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Range id="135183" realtime="0"/>
       </ExportTimespan>
       <ExportChannelConfiguration split="0" channels="2">
@@ -80278,9 +80487,15 @@ a409600 1
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="718" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+<<<<<<< HEAD
       <Window name="inspector" visible="0" x-off="123" y-off="214" x-size="620" y-size="370"/>
       <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+=======
+      <Window name="inspector" visible="0" x-off="129" y-off="206" x-size="620" y-size="370"/>
+      <Window name="audio-midi-setup" visible="0" x-off="675" y-off="341" x-size="568" y-size="397"/>
+      <Window name="video-export" visible="0" x-off="264" y-off="274" x-size="470" y-size="412"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Window name="script-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -80325,17 +80540,23 @@ a409600 1
       <Window name="RPM-1122" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-1190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-30935" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+<<<<<<< HEAD
       <Window name="P-306-217645" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-306-217645" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-238-217575" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
       <Window name="PM-238-217575" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-217416-217479" visible="0" x-off="465" y-off="405" x-size="616" y-size="482" custom-ui="1"/>
       <Window name="PM-217416-217479" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+=======
+      <Window name="P-71-183987" visible="0" x-off="129" y-off="0" x-size="1126" y-size="706" custom-ui="1"/>
+      <Window name="PM-71-183987" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <Window name="P-30975-183621" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
       <Window name="PM-30975-183621" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-646-183923" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
       <Window name="PM-646-183923" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-782-183140" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
+<<<<<<< HEAD
       <Window name="P-782-216029" visible="0" x-off="305" y-off="419" x-size="937" y-size="455" custom-ui="1"/>
       <Window name="PM-782-183140" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-782-216029" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -80352,6 +80573,30 @@ a409600 1
       <Window name="PM-30935-183601" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-30935-216481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-294412" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+=======
+      <Window name="PM-782-183140" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-986-184283" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
+      <Window name="PM-986-184283" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1190-183578" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
+      <Window name="PM-1190-183578" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-30935-183601" visible="0" x-off="384" y-off="0" x-size="616" y-size="482" custom-ui="1"/>
+      <Window name="PM-30935-183601" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-782-216029" visible="0" x-off="305" y-off="419" x-size="937" y-size="455" custom-ui="1"/>
+      <Window name="PM-782-216029" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1122-216171" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-1122-216171" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-1190-216244" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-1190-216244" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-30935-216481" visible="0" x-off="389" y-off="414" x-size="769" y-size="464" custom-ui="1"/>
+      <Window name="PM-30935-216481" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-217416" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-217416-217479" visible="0" x-off="465" y-off="405" x-size="616" y-size="482" custom-ui="1"/>
+      <Window name="PM-217416-217479" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-238-217575" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-238-217575" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-306-217645" visible="0" x-off="389" y-off="419" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-306-217645" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       <GUIObjectState>
         <Object id="rtav 71" height="91"/>
         <Object id="automation 75" height="66" visible="0"/>
@@ -80396,10 +80641,13 @@ a409600 1
             <Object id="control 184049" visible="0"/>
             <Object id="control 184051" visible="0"/>
           </Object>
+<<<<<<< HEAD
           <Object id="processor 231859"/>
           <Object id="processor 247701"/>
           <Object id="processor 264837"/>
           <Object id="processor 283779"/>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         </Object>
         <Object id="rtav 170" height="91" layer-display="Overlaid"/>
         <Object id="automation 191" height="66" visible="0"/>
@@ -80411,7 +80659,11 @@ a409600 1
         <Object id="automation 261" height="66" visible="0"/>
         <Object id="automation 238 12/0/0" height="66" visible="0"/>
         <Object id="automation 274" height="66" visible="0"/>
+<<<<<<< HEAD
         <Object id="rtav 306" height="92"/>
+=======
+        <Object id="rtav 306" height="91"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Object id="automation 327" height="66" visible="0"/>
         <Object id="automation 329" height="66" visible="0"/>
         <Object id="automation 306 12/0/0" height="66" visible="0"/>
@@ -80426,7 +80678,11 @@ a409600 1
         <Object id="automation 465" height="66" visible="0"/>
         <Object id="automation 442 12/0/0" height="66" visible="0"/>
         <Object id="automation 478" height="66" visible="0"/>
+<<<<<<< HEAD
         <Object id="rtav 510" height="68"/>
+=======
+        <Object id="rtav 510" height="91"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Object id="automation 531" height="66" visible="0"/>
         <Object id="automation 533" height="66" visible="0"/>
         <Object id="automation 510 12/0/0" height="66" visible="0"/>
@@ -80441,7 +80697,11 @@ a409600 1
         <Object id="automation 669" height="66" visible="0"/>
         <Object id="automation 646 12/0/0" height="66" visible="0"/>
         <Object id="automation 682" height="66" visible="0"/>
+<<<<<<< HEAD
         <Object id="rtav 714" height="76" layer-display="Overlaid"/>
+=======
+        <Object id="rtav 714" height="126" layer-display="Overlaid"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Object id="automation 735" height="66" visible="0"/>
         <Object id="automation 737" height="66" visible="0"/>
         <Object id="automation 714 12/0/0" height="66" visible="0"/>
@@ -81191,7 +81451,11 @@ a409600 1
             <Object id="control 3785" visible="0"/>
           </Object>
         </Object>
+<<<<<<< HEAD
         <Object id="rtav 3880" height="90"/>
+=======
+        <Object id="rtav 3880" height="91"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Object id="automation 3939" height="66" visible="0"/>
         <Object id="automation 3936" height="66" visible="0"/>
         <Object id="automation 3880 12/0/0" height="66" visible="0"/>
@@ -81368,11 +81632,16 @@ a409600 1
             <Object id="InlineDisplay" visible="1"/>
           </Object>
         </Object>
+<<<<<<< HEAD
         <Object id="rtav 217416" height="66"/>
+=======
+        <Object id="rtav 217416" height="91"/>
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
         <Object id="automation 217420" height="66" visible="0"/>
         <Object id="automation 217422" height="66" visible="0"/>
         <Object id="automation 217416 12/0/0" height="66" visible="0"/>
         <Object id="automation 217435" height="66" visible="0"/>
+<<<<<<< HEAD
         <Object id="strip 235101">
           <Object id="processor 235148">
             <Object id="control 235122" visible="0"/>
@@ -81448,6 +81717,8 @@ a409600 1
             <Object id="control 294416" visible="0"/>
           </Object>
         </Object>
+=======
+>>>>>>> e5055b9054f4168186005001361baedf7e36bacc
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
