@@ -27,8 +27,8 @@ Wem das immernoch nicht gefällt
 hat wohl das ganz ganz Falsche gewählt
 und wird jetzt gnadenlos im Stau gequält
 
-**Finale**
-Wer nichts auf dem Teller hat
-den Tellerrand zum greifen nah
-Glücklick ist, wer erkennt:
-dieser Tarif macht die Grenzen deiner Welt
+**Finale**  
+Wer nichts auf dem Teller hat  
+den Tellerrand zum greifen nah  
+Glücklick ist, wer erkennt:  
+dieser Tarif macht die Grenzen deiner Welt  
