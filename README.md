@@ -3,7 +3,31 @@
 aufgenommen am 9.+10. August 2025 in Hamburch  
 Ardour 8.12
 
+## Ordnerstruktur
+
+https://manual.ardour.org/ardourmanual.html#whats-in-a-session
+
+wichtig für git Versionierung:
+- **session.ardour** – ardour Projekt
+- **session.history** - undo history for the project
+
+Der Ordner "interchange" sollte in der Cloud gespeichert sein.
+
 ## Mixlog
+
+03.09.2025 Analyse des Ardour-Crashs
+Tobias wollte zippen, während Ardour was exportiert hat. Irgendwie hat das wohl das Projekt gecrasht. Dann wollte Tob wohl nochmal pullen und dann kam es zum merge konflikt?
+
+- Startet man das Projekt, sieht man:
+
+>Here are a few hints at what might be wrong:
+ERROR: Cannot get existing session information from /home/dav/ardour-sessions/Wellness-2025/WELLNESS-2025_KOMPLETT/WELLNESS-2025_KOMPLETT_Gitarren.ardour
+ERROR: XML error: Extra content at the end of the document in /home/dav/ardour-sessions/Wellness-2025/WELLNESS-2025_KOMPLETT/WELLNESS-2025_KOMPLETT_Gitarren.ardour at line 2:2
+ERROR: XML error: StartTag: invalid element name in /home/dav/ardour-sessions/Wellness-2025/WELLNESS-2025_KOMPLETT/WELLNESS-2025_KOMPLETT_Gitarren.ardour at line 2:2
+ERROR: XML error: Extra content at the end of the document in /home/dav/ardour-sessions/Wellness-2025/WELLNESS-2025_KOMPLETT/WELLNESS-2025_KOMPLETT_Gitarren.ardour at line 2:2
+ERROR: XML error: StartTag: invalid element name in /home/dav/ardour-sessions/Wellness-2025/WELLNESS-2025_KOMPLETT/WELLNESS-2025_KOMPLETT_Gitarren.ardour at line 2:2
+
+- öffnet man die Projektdatei mit einem Code-Editor, sieht man, dass es offene merge-Konflikte gibt, die ja in die Datei geschrieben werden, und daher alles durcheinander bringen.
 
 30.08.2025
 - Calf Equalizer durch x42 ersetzt
