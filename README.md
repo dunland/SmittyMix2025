@@ -1,6 +1,8 @@
 # SmittyWerben 2025 Aufnahmen
 
 aufgenommen am 9.+10. August 2025 in Hamburch  
+Gitarren overdubs am 30.08., Gesang am 05.09.  
+
 Ardour 8.12
 
 ## Ordnerstruktur
