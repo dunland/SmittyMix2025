@@ -7,10 +7,13 @@ Alles hier dreht sich um dich
 Aus meiner Villa schau ich dir zu  
 
 **B**  
-Ganz allein meine Fabrik  
-du lässt mich niemals in Ruh  
-Deine Maschine dreht sich  
-Wenn du Musik spielst hör ich dir zu  
+Du bist die Fabrik  
+Und gehörst nur mir  
+Wenn ich schlafen geh läufst du weiter  
+
+Du spielst die Musik  
+Und Sie lauschen dir  
+trocken und dabei zwanghaft heiter  
 
 **R**  
 Unendliche Leiter geht immer weiter und dann...  
@@ -23,8 +26,11 @@ Alles hier dreht sich um dich
 Aus meiner Villa schau ich dir zu  
 
 **B**  
-Du bist meine Fabrik  
-Wenn du Musik spielst hör ich dir zu  
+Gebe eine Hand  
+oder vielleicht zwei  
+trotzdem musst du wieder an die Leiter  
+
+jaaaaaaaaa...  
 
 **R**  
 Unendliche Leiter geht immer weiter und dann...  
