@@ -6,8 +6,7 @@
 Hände hoch - das ist kein Überfall  
 Das ist ab jetzt ein ganz normaler Tag im März  
 Sonne scheint, Wäsche ist gemacht  
-.........................................................  
-*Da hinten renn doch einer! Zum Glück ist der nich schnell.*  
+Da hinten renn noch einer, schnapp ihn dir denn zum Glück ist der nich schnell.  
 
 Los jetzt, wir haben Aufhäng-Drang,  
 Du zeichnest mir ein freies Körper-Diagramm.  
@@ -27,10 +26,8 @@ Reich mir doch mal das Seil mein lieber Schatz.
 
 Mechanismuuuus,  
 bestehend aus zwei Massen und ner dünnen Schnur.  
-*Und diese Apparatur, ham wir selbst gebaut.  
-Quasiperiodisch - stell' ich das Werk hier zur... Schau  
-.........................................................  
-Im Kräftegleichgewicht entsteht ein unverkennbarer Tanz*
+Und diese Apparatur, ham wir selbst gebaut.  
+Quasiperiodisch halb hypnotisch schwingend stell' ich das Werk hier zur... Schau  
 
 
 **REFRAIN 2:**  
