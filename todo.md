@@ -53,17 +53,17 @@
 
 # Texte
 ### 01 Magma
-- letzte Zeile in der Strophe
+- ~~letzte Zeile in der Strophe~~
 ### 04 Franka, Franka
-- Strophe II komplett schreiben
+- ~~Strophe II komplett schreiben~~
 ### 05 Juwelen
-- Strophe II komplett schreiben / abändern?
+- ~~Strophe II komplett schreiben / abändern?~~
 ### 07 Leiter
-- Refrain mehr wie früher
+- ~~Refrain mehr wie früher~~
 ### 08 DingelDongel
-- alles schreiben
+- ~~alles schreiben~~
 ### 10 9€
-- fertig, @Daff?
+- ~~fertig, @Daff?~~
 <br><br><br>
 
 # Gitarren doppeln:
