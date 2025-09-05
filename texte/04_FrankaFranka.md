@@ -19,13 +19,13 @@ Das ist schon so lange...
 
 **II**  
 Franka Franka  
-Autobahn  
+Aktienmarkt  
 Schneller, Schneller  
-Porsche fahr'n  
-90 Liter  
-Frisch befüllt  
-Immer weiter  
-Auf nach Sylt  
+Geld geparkt  
+Feine Tücher  
+Sanft umhüllt  
+immer weiter  
+auf nach Sylt  
 
 **R**  
 Weiß ich nicht  
