@@ -12,19 +12,19 @@ Keine das richtige Maß
 
 **R**  
 Juwelenraub ist nie verkehrt  
-Wenn der Bus ins Dunkle fährt  
+Wenn dein Bus ins Dunkle fährt  
 Juwelenraub wunderschön  
 Dieser Rausch kann weitergeh'n  
 
 **II**  
-30 Rubine in Rot  
-50 Saphire in Blau  
+Straßen gepflaster aus Gold  
+Zäune mit 10000 Volt  
 
-20 Quadranten aus Quarz  
-400 Kilo Granat  
+Schlösser aus schönem Saphir  
+bald gehört dann alles dir  
 
-1000 Vitrinen aus Glas  
-Keine das richtige Maß  
+Tore aus Eisen und Stein  
+Hier kommst du niemals hinein  
 
 **R**  
 Juwelenraub ist nie verkehrt  
@@ -33,13 +33,13 @@ Juwelenraub wunderschön
 Dieser Rausch kann weitergeh'n  
 
 **F1**  
-Die Welt ist nur aus eins gemacht  
+Die Welt ist nur für eins gemacht  
 Juwelen in Vitrinen  
 Was einst aus Fels gewachsen ist  
 Kannst du niemals berühren  
 
 **F2**  
-Kennst du nicht die Sagen  
+Kennst du nicht die Pläne  
 Alle schon erzählt  
 Sieht du nicht das Funkeln  
 Das was dich so quält  
