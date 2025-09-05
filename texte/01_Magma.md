@@ -2,7 +2,7 @@
 Heiße Gefühle aus einer anderen Zeit  
 Durch eine Bohrung lege ich Sie bereit  
 Neue Verkablung in einem neuen System  
-Reise durch etwas das einmal war  
+Leitet durch etwas das einmal war  
 
 **R**  
 Magma  
@@ -13,9 +13,9 @@ Magma
 
 **II**  
 Heiße Gefühle aus einer anderen Zeit  
-Durch eine Bohrung lege ich Sie bereite  
+Durch eine Bohrung lege ich Sie bereit  
 Neue Verkablung in einem neuen System  
-Reise durch etwas das einmal war  
+Leitet durch etwas das einmal war  
 
 **R**  
 Magma  
