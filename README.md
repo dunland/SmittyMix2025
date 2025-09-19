@@ -17,6 +17,9 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+19.09.2025
+- Bass: Subbass geboostet bei ca. 65Hz. Brauchen wir beide Basskanäle?
+
 03.09.2025 Analyse des Ardour-Crashs
 Tobias wollte zippen, während Ardour was exportiert hat. Irgendwie hat das wohl das Projekt gecrasht. Dann wollte Tob wohl nochmal pullen und dann kam es zum merge konflikt?
 
