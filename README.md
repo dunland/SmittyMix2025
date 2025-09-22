@@ -17,6 +17,10 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+22.09.2025
+- Gitarren: EQ und Kompressoren, Pannings
+- Bass: EQ und Kompressor, Shure Mute
+
 19.09.2025
 - Bass: Subbass geboostet bei ca. 65Hz. Brauchen wir beide Basskanäle?
 
