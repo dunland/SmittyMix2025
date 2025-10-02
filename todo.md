@@ -1,54 +1,54 @@
 # Gesang
 ### 01 Magma
-- Matt: Refrain
-- Daff: Refrain
-- Vinz: alles,**I,II**
-- Tob: Refrain
+- ~~Matt: Refrain ?~~  
+- ~~Daff: Refrain ?~~  
+- ~~Vinz: alles,**I,II**, Refrain~~  
+- ~~Tob: Refrain~~  
 ### 02 Antrieb
-- Matt: R2
-- Daff: alles
-- Vinz: alles, **R**
-- Tob: **I**, **II**
+- ~~Matt: R2~~  
+- ~~Daff: alles~~  
+- ~~Vinz: alles, **R**~~  
+- ~~Tob: **I**, **II**~~  
 ### 03 Glockenmann
-- Matt: R
-- Daff: I, II, R, III
-- Vinz: alles, **I**, **II**
-- Tob: **B**, R, II
+- ~~Matt: R?~~  
+- ~~Daff: I, II, R, III, Chor~~  
+- ~~Vinz: alles, **I**, **II**~~  
+- ~~Tob: **B**, R, II~~  
 ### 04 Franka, Franka
-- Matt: Strophen? Refrain?
-- Daff: B, **R**, Strophen?
-- Vinz: alles, **I**
-- Tob: **B**, R
+- ~~Matt: Bridge? Refrain?~~
+- ~~Daff: B, **R**, Strophen?~~  
+- ~~Vinz: alles, **I**, Intro~~  
+- ~~Tob: **B**, R~~  
 ### 05 Juwelenraub
-- Matt: ?
-- Daff: x
-- Vinz: **alles**
-- Tob: (I), II, R, F1
+- ~~Matt: F1~~  
+- ~~Daff: x~~  
+- ~~Vinz: **alles**, doppeln~~  
+- ~~Tob: (I), II, R, F1~~  
 ### 06 Schlangenmensch
-- Matt: erstes Wort Strophe
-- Daff: B
-- Vinz: alles, **I**, **II**, **III**
-- Tob: **B**
+- ~~Matt: erstes Wort Strophe, B~~  
+- ~~Daff: B~~  
+- ~~Vinz: alles, **I**, **II**, **III**~~  
+- ~~Tob: **B**~~  
 ### 07 Leiter
-- Matt: ?, *Strophe?*
-- Daff: **unendliche Leiter**, *Strophe?*
-- Vinz: **Strophe**, **B**, unendliche Leiter
-- Tob: unendliche Leiter, B, *Strophe?*
+- ~~Matt: x~~
+- ~~Daff: **unendliche Leiter**, B~~  
+- ~~Vinz: **Strophe**, **B**, unendliche Leiter~~  
+- ~~Tob: unendliche Leiter~~  
 ### 08 DingelDongel
-- Matt: x
-- Daff: R
-- Vinz: x
-- Tob: **alles**
+- ~~Matt: x~~
+- ~~Daff: R, backings~~  
+- ~~Vinz: x~~  
+- ~~Tob: R, Strophen~~  
 ### 09 Tanker
-- Matt: ?
-- Daff: ?
-- Vinz: **Strophe**, **Bridge**, Finale
-- Tob: Strophe backings, Bridge Finale
+- ~~Matt: Finale~~
+- ~~Daff: x~~  
+- ~~Vinz: **Strophe**, **Bridge**, Finale~~  
+- ~~Tob: Strophe backings, Bridge, Finale~~  
 ### 10 9€
-- Matt: *Refrain?*
-- Daff: **alles**
-- Vinz: x
-- Tob: ahh im Ref
+- ~~Matt: ahh im Ref~~  
+- ~~Daff: Strophe + doppeln, Refrain + doppeln, Finale~~  
+- ~~Vinz: x~~  
+- ~~Tob: ahh im Ref~~    
 <br><br><br>
 
 # Texte
