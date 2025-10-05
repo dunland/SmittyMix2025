@@ -1,7 +1,7 @@
 # SmittyWerben 2025 Aufnahmen
 
 aufgenommen am 9.+10. August 2025 in Hamburch  
-Gitarren overdubs am 30.08., Gesang am 05.09.  
+Gitarren overdubs am 30.08., Gesang am 05.09. und 02.10.  
 
 Ardour 8.12
 
@@ -16,6 +16,10 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+
+05.10.2025: neuen Branch erstellt für Gitarrenmix
+- Gitarren: EQ nochmal neu gemacht, einige Pannings automatisiert
+- Gitarren und Bass Spuren geschnippelt / aufgeräumt
 
 22.09.2025
 - Gitarren: EQ und Kompressoren, Pannings
