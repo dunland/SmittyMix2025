@@ -17,6 +17,10 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+11.10.2025: branch Gitarrenmix in Master übernommen
+- Bass, Drums und Raummikrospuren geschnippelt, gefaded, aufgeräumt
+- Start/Ende der tracks präziser gesetzt
+
 05.10.2025: neuen Branch erstellt für Gitarrenmix
 - Gitarren: EQ nochmal neu gemacht, einige Pannings automatisiert
 - Gitarren und Bass Spuren geschnippelt / aufgeräumt
