@@ -17,9 +17,24 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+12.10.2025:
+- Magma Take 2 entfernt
+- Magma Strophe Leadgitarre lauter
+- Drums:
+-- großen Lowcut auf Hihat und Ride gesetzt
+-- kleinen Hi- und Lowcut auf die Toms gesetzt
+- Gesang:
+-- großen Lowcut, kleinen Hicut auf Dry und Wet Gruppenspuren gemacht
+- alle Fader runtergedrhet, sodass nichts mehr clipt
+- angefangen Gesangslautstärken zu automatisieren
+
+
+
+
 11.10.2025: branch Gitarrenmix in Master übernommen
 - Bass, Drums und Raummikrospuren geschnippelt, gefaded, aufgeräumt
 - Start/Ende der tracks präziser gesetzt
+- Davids Gesang bei der Bridge von 9€ gelöscht
 
 05.10.2025: neuen Branch erstellt für Gitarrenmix
 - Gitarren: EQ nochmal neu gemacht, einige Pannings automatisiert
