@@ -17,6 +17,11 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+16.10.2025
+- Management: Vincents-Gitarren-Tuba-Ton entfernt
+- Glockenmann: letzten Basston rausgeschnitten
+- viel Bassgeschnibbel
+
 12.10.2025:
 - Magma Take 2 entfernt
 - Magma Strophe Leadgitarre lauter
