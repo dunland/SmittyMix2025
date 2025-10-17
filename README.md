@@ -17,10 +17,14 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+17.10.2025
+- Juwelen-Gitarre aus der 2. Strophe geklaut und nach vorn gesetzt
+
 16.10.2025
 - Management: Vincents-Gitarren-Tuba-Ton entfernt
 - Glockenmann: letzten Basston rausgeschnitten
 - viel Bassgeschnibbel
+- Hihat 4,5dB leiser gemacht
 
 12.10.2025:
 - Magma Take 2 entfernt
@@ -32,9 +36,6 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 -- großen Lowcut, kleinen Hicut auf Dry und Wet Gruppenspuren gemacht
 - alle Fader runtergedrhet, sodass nichts mehr clipt
 - angefangen Gesangslautstärken zu automatisieren
-
-
-
 
 11.10.2025: branch Gitarrenmix in Master übernommen
 - Bass, Drums und Raummikrospuren geschnippelt, gefaded, aufgeräumt

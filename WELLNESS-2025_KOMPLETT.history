@@ -1,294 +1,351 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1760643915" tv-usec="480168" name="Region start trim">
-    <StatefulDiffCommand obj-id="989415" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a2451514879" to="a721358319"/>
-        <length from="a4658176000@a236366311679" to="a6388153600@a234636155119"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1316804" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003172564507
-a3846950400 1.0000002172564506
-a4658176000 1.0000002172564506
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1316805" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003172564507
-a1729977600 1.0000003172564507
-a5576928000 1.0000002172564506
-a6388153600 1.0000002172564506
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="989405" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a2451514879" to="a721358319"/>
-        <length from="a4658176000@a236366311679" to="a6388153600@a234636155119"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1316807" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003172564507
-a3846950400 1.0000002172564506
-a4658176000 1.0000002172564506
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1316808" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003172564507
-a1729977600 1.0000003172564507
-a5576928000 1.0000002172564506
-a6388153600 1.0000002172564506
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="8496">
-        <Selection>
-          <Regions>
-            <Region id="989415"/>
-            <Region id="989405"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="8496">
-        <Selection>
-          <Regions>
-            <Region id="989415"/>
-            <Region id="989405"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760643927" tv-usec="142383" name="Region start trim">
-    <StatefulDiffCommand obj-id="989425" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a169923105" to="a2450594741"/>
-        <length from="a6388422400@a234636137505" to="a4107584000@a236916809141"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1316972" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000001000000001
-a5577196800 1.0000002098033347
-a6388422400 1.0000002098033347
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1316973" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.000000244904939
-a3296358400 1.0000002098033347
-a4107584000 1.0000002098033347
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
-        <Selection>
-          <Regions>
-            <Region id="989425"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
-        <Selection>
-          <Regions>
-            <Region id="989425"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760643927" tv-usec="581468" name="region drag">
-    <StatefulDiffCommand obj-id="469905" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
-        <Selection>
-          <Regions>
-            <Region id="469905"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
-        <Selection>
-          <Regions>
-            <Region id="469905"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760643928" tv-usec="331604" name="delete objects">
-    <StatefulDiffCommand obj-id="703724" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="23" to="22"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="703315" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="22" to="21"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="704282" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="24" to="23"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="953179" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="27" to="26"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="695437" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="16" to="15"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="697228" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="18" to="17"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="696063" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="17" to="16"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="697378" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="19" to="18"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="989425" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="28" to="27"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="699831" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="20" to="19"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1003586" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="29" to="28"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="700586" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="21" to="20"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="705312" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="25" to="24"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1018227" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="30" to="29"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="705614" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="26" to="25"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="470112" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="9" to="8"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="470394" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="10" to="9"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="470535" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="11" to="10"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="480838" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="12" to="11"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="481241" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="13" to="12"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1074763" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="31" to="30"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="482105" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="14" to="13"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="651406" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <layering-index from="15" to="14"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="467876" type-name="ARDOUR::AudioPlaylist">
+  <UndoTransaction tv-sec="1760684980" tv-usec="386029" name="paste">
+    <StatefulDiffCommand obj-id="368" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="469905"/>
+          <Add id="1354842"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="300" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="1354943"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14663857" y-origin="1050">
+        <Selection>
+          <StripableView id="306"/>
+          <StripableView id="238"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14663857" y-origin="1050">
+        <Selection>
+          <StripableView id="306"/>
+          <StripableView id="238"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760684986" tv-usec="676187" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94040610106" to="a399769600@a94044992715"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94040610106" to="a399769600@a94044992715"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14677491" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="469905"/>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14677491" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685006" tv-usec="330626" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94044992715" to="a399769600@a94024613584"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94044992715" to="a399769600@a94024613584"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685009" tv-usec="367505" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94024613584" to="a399769600@a94014697932"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94024613584" to="a399769600@a94014697932"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685012" tv-usec="978407" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94014697932" to="a399769600@a94012506628"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94014697932" to="a399769600@a94012506628"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685018" tv-usec="183293" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94012506628" to="a399769600@a94009767497"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94012506628" to="a399769600@a94009767497"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14635003" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685047" tv-usec="342758" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94009767497" to="a399769600@a94040603982"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94009767497" to="a399769600@a94040603982"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685063" tv-usec="408740" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685065" tv-usec="215686" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94040603982" to="a399769600@a94032337932"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94040603982" to="a399769600@a94032337932"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="86" left-frame="14683075" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685085" tv-usec="347012" name="region drag">
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94032337932" to="a399769600@a94026969237"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94032337932" to="a399769600@a94026969237"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="21" left-frame="14687177" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="21" left-frame="14687177" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1760685093" tv-usec="209304" name="split">
+    <StatefulDiffCommand obj-id="368" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="1355185"/>
+          <Add id="1355194"/>
+          <Remove id="5657"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="300" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="1355214"/>
+          <Add id="1355223"/>
+          <Remove id="5710"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="21" left-frame="14687177" y-origin="1050">
+        <Selection>
+          <Regions>
+            <Region id="5657"/>
+            <Region id="5710"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="21" left-frame="14687177" y-origin="1050">
         <Selection/>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643932" tv-usec="585318" name="Region start trim">
-    <StatefulDiffCommand obj-id="989425" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685101" tv-usec="151759" name="Region start trim">
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <start from="a2450594741" to="a0"/>
-        <length from="a4107584000@a236916809141" to="a6558067200@a234466214400"/>
+        <start from="a2640653185" to="a3056730632"/>
+        <length from="a52163929600@a94020883200" to="a51747648000@a94436960647"/>
         <Envelope>
           <from>
-            <AutomationList automation-id="envelope" id="1317327" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.000000244904939
-a3296358400 1.0000002098033347
-a4107584000 1.0000002098033347
+            <AutomationList automation-id="envelope" id="1355360" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014593821
+a52163929600 1.0000003014593959
 </events>
             </AutomationList>
           </from>
           <to>
-            <AutomationList automation-id="envelope" id="1317328" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.000000244904939
-a2450483200 1.000000244904939
-a5746841600 1.0000002098033347
-a6558067200 1.0000002098033347
+            <AutomationList automation-id="envelope" id="1355361" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014593959
+a51747648000 1.0000003014593959
 </events>
             </AutomationList>
           </to>
@@ -296,43 +353,40 @@ a6558067200 1.0000002098033347
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="989425"/>
+            <Region id="1355194"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="989425"/>
+            <Region id="1355194"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643935" tv-usec="799348" name="Region start trim">
-    <StatefulDiffCommand obj-id="989425" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685105" tv-usec="30612" name="Region start trim">
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <start from="a0" to="a169940719"/>
-        <length from="a6558067200@a234466214400" to="a6388121600@a234636155119"/>
+        <start from="a3056730632" to="a3046508822"/>
+        <length from="a51747648000@a94436960647" to="a51757868800@a94426738837"/>
         <Envelope>
           <from>
-            <AutomationList automation-id="envelope" id="1317487" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.000000244904939
-a2450483200 1.000000244904939
-a5746841600 1.0000002098033347
-a6558067200 1.0000002098033347
+            <AutomationList automation-id="envelope" id="1355455" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014593959
+a51747648000 1.0000003014593959
 </events>
             </AutomationList>
           </from>
           <to>
-            <AutomationList automation-id="envelope" id="1317488" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003449049391
-a2280537600 1.000000244904939
-a5576896000 1.0000002098033347
-a6388121600 1.0000002098033347
+            <AutomationList automation-id="envelope" id="1355456" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014593959
+a10220800 1.0000004014593959
+a51757868800 1.0000003014593959
 </events>
             </AutomationList>
           </to>
@@ -340,2900 +394,509 @@ a6388121600 1.0000002098033347
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="989425"/>
+            <Region id="1355194"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="7788">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="989425"/>
+            <Region id="1355194"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643975" tv-usec="339008" name="adjust region gain">
-    <StatefulDiffCommand obj-id="717543" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685112" tv-usec="592765" name="Region start trim">
+    <StatefulDiffCommand obj-id="1355223" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="1" to="1.1220184564590454"/>
+        <start from="a2644181185" to="a3050036822"/>
+        <length from="a52160390400@a94020883200" to="a51754176000@a94426738837"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1355550" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014594347
+a52160390400 1.0000003014594485
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1355551" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014594486
+a51754176000 1.0000003014594485
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643975" tv-usec="683436" name="adjust region gain">
-    <StatefulDiffCommand obj-id="717543" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685115" tv-usec="524738" name="Region end trim">
+    <StatefulDiffCommand obj-id="1355214" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="1.1220184564590454" to="1.2589254379272461"/>
+        <length from="a848025600@a93172853582" to="a854112000@a93172853582"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1355735" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000002968747306
+a848025600 1.0000003014594347
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1355736" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000002968747306
+a848025600 1.0000003014594347
+a854112000 1.0000003014594347
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355185" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a848025600@a93172853582" to="a854112000@a93172853582"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1355738" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000002968813566
+a848025600 1.0000003014593821
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1355739" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000002968813566
+a848025600 1.0000003014593821
+a854112000 1.0000003014593821
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355214"/>
+            <Region id="1355185"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="84" left-frame="14678267" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355214"/>
+            <Region id="1355185"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643975" tv-usec="879632" name="adjust region gain">
-    <StatefulDiffCommand obj-id="717543" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685142" tv-usec="967329" name="Region start trim">
+    <StatefulDiffCommand obj-id="1355223" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="1.2589254379272461" to="1.4125375747680664"/>
+        <start from="a3050036822" to="a3021444355"/>
+        <length from="a51754176000@a94426738837" to="a51782604800@a94398146370"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1355923" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014594486
+a51754176000 1.0000003014594485
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1355924" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014594486
+a28428800 1.0000004014594486
+a51782604800 1.0000003014594485
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <start from="a3046508822" to="a3017916355"/>
+        <length from="a51757868800@a94426738837" to="a51786297600@a94398146370"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1355926" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014593959
+a10220800 1.0000004014593959
+a51757868800 1.0000003014593959
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1355927" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000004014593959
+a38649600 1.0000004014593959
+a51786297600 1.0000003014593959
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760643977" tv-usec="121888" name="adjust region gain">
-    <StatefulDiffCommand obj-id="717543" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1760685149" tv-usec="566546" name="raise regions to top">
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="1.4125375747680664" to="1.2589254379272461"/>
+        <layering-index from="17" to="16"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355223" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="3" to="17"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="6273" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="4" to="3"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="7013" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="5" to="4"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="13611" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="6" to="5"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="16472" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="7" to="6"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="31893" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="8" to="7"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="34020" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="9" to="8"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="35301" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="10" to="9"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="52438" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="11" to="10"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="67085" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="12" to="11"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="84764" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="13" to="12"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="95815" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="14" to="13"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="101082" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="15" to="14"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="114154" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="16" to="15"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="17" to="16"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="3" to="17"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="6109" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="4" to="3"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="6661" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="5" to="4"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="13581" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="6" to="5"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="16442" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="7" to="6"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="31864" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="8" to="7"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="33991" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="9" to="8"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="35272" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="10" to="9"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="52409" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="11" to="10"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="67056" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="12" to="11"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="84735" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="13" to="12"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="95785" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="14" to="13"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="101053" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="15" to="14"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="114125" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="16" to="15"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="4096" left-frame="34097152" y-origin="5841">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
           <Regions>
-            <Region id="717543"/>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
           </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760644050" tv-usec="896559" name="add automation event">
-    <MementoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1760685162" tv-usec="618604" name="change region opacity">
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <opaque from="1" to="0"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355223" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <opaque from="1" to="0"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <opaque from="1" to="0"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <opaque from="1" to="0"/>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="0"/>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="1"/>
+          <Regions>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644051" tv-usec="739565" name="add automation event">
-    <MementoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a391919293245 1.0939626693725586
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
-          <AutomationView id="378726" parameter="gain" ctrl_id="378747"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
-        <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="2"/>
+          <Regions>
+            <Region id="1355194"/>
+            <Region id="1355223"/>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760644058" tv-usec="176559" name="automation event move">
-    <MementoUndoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a391919293245 1.0939626693725586
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a436674899200 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
+  <UndoTransaction tv-sec="1760685173" tv-usec="466908" name="raise regions to top">
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="16" to="17"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355223" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="17" to="16"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="16" to="17"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1355194" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <layering-index from="17" to="16"/>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="2"/>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="89804" left-frame="0" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="16" left-frame="14741271" y-origin="1050">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="2"/>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1760644072" tv-usec="720113" name="automation event move">
-    <MementoUndoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a436674899200 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
+  <UndoTransaction tv-sec="1760685180" tv-usec="467918" name="Region end trim">
+    <StatefulDiffCommand obj-id="1354943" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94026969237" to="a422316800@a94026969237"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1356535" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014594347
+a399769600 1.0000004002715457
+a399769600 1.0000004002715457
 </events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a438398758400 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1356536" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014594347
+a399769600 1.0000004002715457
+a422316800 1.0000004002715457
 </events>
-      </AutomationList>
-    </MementoRedoCommand>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="a399769600@a94026969237" to="a422316800@a94026969237"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="1356538" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014593821
+a399769600 1.0000004002716181
+a399769600 1.0000004002716181
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="1356539" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
+              <events>a0 1.0000003014593821
+a399769600 1.0000004002716181
+a422316800 1.0000004002716181
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="11225" left-frame="59795575" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="14704407" y-origin="1050">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="2"/>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="11225" left-frame="59795575" y-origin="5664">
+      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="14704407" y-origin="1050">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644077" tv-usec="982470" name="delete objects">
-    <MementoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a369436851200 0.56139028072357178
-a438398758400 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a438398758400 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="89800" left-frame="0" y-origin="5664">
-        <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="89800" left-frame="0" y-origin="5664">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644081" tv-usec="836496" name="delete objects">
-    <MementoCommand obj-id="378746" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.24009162187576294
-a438398758400 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="378746" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a438398758400 0.66875708103179932
-a444923923200 0.65414047241210938
-a445605497600 0.65414047241210938
-a445612051200 0.58176779747009277
-a445638265600 0.48806604743003845
-a445651372800 0.42891028523445129
-a445664480000 0.41294121742248535
-a445684140800 0.35304975509643555
-a445697248000 0.33218422532081604
-a445841427200 0.33218422532081604
-a445880748800 0.31874179840087891
-a445926624000 0.31874179840087891
-a445933177600 0.31215891242027283
-a445972499200 0.31215891242027283
-a445985606400 0.30566734075546265
-a446044588800 0.30566734075546265
-a446083910400 0.29295533895492554
-a446123232000 0.29295533895492554
-a446129785600 0.28673356771469116
-a446169107200 0.28673356771469116
-a446182214400 0.28060039877891541
-a450389625600 0.28060039877891541
-a450402732800 0.28673356771469116
-a450435500800 0.28673356771469116
-a450455161600 0.29926636815071106
-a450494483200 0.29926636815071106
-a450501036800 0.30566734075546265
-a450546912000 0.30566734075546265
-a450553465600 0.31215891242027283
-a450586233600 0.31215891242027283
-a450605894400 0.3254166841506958
-a450645216000 0.3254166841506958
-a450658323200 0.33218422532081604
-a450691091200 0.33218422532081604
-a450704198400 0.36743611097335815
-a450743520000 0.41294121742248535
-a450756627200 0.43704810738563538
-a450789395200 0.4706379771232605
-a450809056000 0.47929865121841431
-a450815609600 0.49694085121154785
-a450835270400 0.5059238076210022
-a450874592000 0.54295164346694946
-a450913913600 0.57189357280731201
-a450933574400 0.59175676107406616
-a450972896000 0.61208170652389526
-a454996806400 0.61208170652389526
-a455003360000 0.62241917848587036
-a455075449600 0.62241917848587036
-a455082003200 0.63287431001663208
-a461071993600 0.63287431001663208
-a461085100800 0.61208170652389526
-a461117868800 0.61208170652389526
-a461137529600 0.57189357280731201
-a461163744000 0.57189357280731201
-a461176851200 0.51501566171646118
-a461196512000 0.49694085121154785
-a461216172800 0.46208330988883972
-a461229280000 0.41294121742248535
-a461248940800 0.38220974802970886
-a461281708800 0.36743611097335815
-a461307923200 0.36743611097335815
-a461314476800 0.3601948618888855
-a461602835200 0.3601948618888855
-a461615942400 0.35304975509643555
-a464355347200 0.35304975509643555
-a464361900800 0.346000075340271
-a464447097600 0.346000075340271
-a464473312000 0.33218422532081604
-a464506080000 0.33218422532081604
-a464519187200 0.3254166841506958
-a464604384000 0.3254166841506958
-a464610937600 0.31874179840087891
-a464650259200 0.31874179840087891
-a464676473600 0.30566734075546265
-a464715795200 0.30566734075546265
-a464722348800 0.29926636815071106
-a464761670400 0.29926636815071106
-a464774777600 0.29295533895492554
-a465869228800 0.29295533895492554
-a465875782400 0.29926636815071106
-a465908550400 0.29926636815071106
-a465921657600 0.30566734075546265
-a465987193600 0.30566734075546265
-a466013408000 0.346000075340271
-a466026515200 0.39737626910209656
-a466046176000 0.44528907537460327
-a466052729600 0.48806604743003845
-a466065836800 0.51501566171646118
-a466078944000 0.56213325262069702
-a466124819200 0.59175676107406616
-a466196908800 0.59175676107406616
-a466216569600 0.61208170652389526
-a466295212800 0.61208170652389526
-a466301766400 0.62241917848587036
-a466393516800 0.62241917848587036
-a466413177600 0.65414047241210938
-a466504928000 0.65414047241210938
-a466511481600 0.66495299339294434
-a466852268800 0.66495299339294434
-a466878483200 0.63287431001663208
-a466911251200 0.63287431001663208
-a466924358400 0.62241917848587036
-a468864224000 0.62241917848587036
-a468877331200 0.61208170652389526
-a468896992000 0.47929865121841431
-a468923206400 0.44528907537460327
-a468962528000 0.41294121742248535
-a468982188800 0.37477418780326843
-a468995296000 0.3601948618888855
-a469008403200 0.33218422532081604
-a469034617600 0.31215891242027283
-a469067385600 0.28060039877891541
-a469080492800 0.27455508708953857
-a469231225600 0.27455508708953857
-a469237779200 0.28673356771469116
-a469316422400 0.28673356771469116
-a469322976000 0.29295533895492554
-a469735852800 0.29295533895492554
-a469742406400 0.29926636815071106
-a470037318400 0.29926636815071106
-a470056979200 0.31215891242027283
-a470515731200 0.31215891242027283
-a470522284800 0.31874179840087891
-a470568160000 0.31874179840087891
-a470574713600 0.3254166841506958
-a473051974400 0.3254166841506958
-a473071635200 0.3601948618888855
-a473084742400 0.40510857105255127
-a473104403200 0.43704810738563538
-a473110956800 0.46208330988883972
-a473137171200 0.48806604743003845
-a473156832000 0.48806604743003845
-a473169939200 0.51501566171646118
-a473196153600 0.51501566171646118
-a473235475200 0.54295164346694946
-a473268243200 0.56213325262069702
-a473301011200 0.60186117887496948
-a473333779200 0.60186117887496948
-a473340332800 0.61208170652389526
-a473536940800 0.61208170652389526
-a473543494400 0.62241917848587036
-a475398163200 0.62241917848587036
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="89800" left-frame="0" y-origin="5664">
-        <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="378746" parameter="gain" view-index="0"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="89800" left-frame="0" y-origin="5664">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644175" tv-usec="586549" name="automation event move">
-    <MementoUndoCommand obj-id="397767" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a156048556800 0.86257606744766235
-a156055110400 0.79619073867797852
-a156068217600 0.76434314250946045
-a156074771200 0.70326876640319824
-a156087878400 0.61800408363342285
-a156100985600 0.56523418426513672
-a156127200000 0.56523418426513672
-a156133753600 0.5400310754776001
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="397767" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a154157984000 0.86257606744766235
-a154164537600 0.79619038105010986
-a154177638400 0.76434314250946045
-a154184198400 0.70326864719390869
-a154197305600 0.61800378561019897
-a154210412800 0.56523388624191284
-a154236627200 0.56523388624191284
-a154243180800 0.54003065824508667
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1403" left-frame="23616699" y-origin="6195">
-        <Selection>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="1"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="2"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="3"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="4"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="5"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="6"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="7"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1403" left-frame="23616699" y-origin="6195">
-        <Selection>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="1"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="2"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="3"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="4"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="5"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="6"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="7"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="8"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644187" tv-usec="450533" name="delete objects">
-    <MementoCommand obj-id="397767" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a154157984000 0.86257606744766235
-a154164537600 0.79619038105010986
-a154177638400 0.76434314250946045
-a154184198400 0.70326864719390869
-a154197305600 0.61800378561019897
-a154210412800 0.56523388624191284
-a154236627200 0.56523388624191284
-a154243180800 0.54003065824508667
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a154157984000 0.86257606744766235
-a154243180800 0.54003065824508667
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="87" left-frame="24060190" y-origin="6195">
-        <Selection>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="2"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="3"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="4"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="5"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="6"/>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="7"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="87" left-frame="24060190" y-origin="6195">
-        <Selection/>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1760644190" tv-usec="979444" name="automation event move">
-    <MementoUndoCommand obj-id="397767" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a154157984000 0.86257606744766235
-a154243180800 0.54003065824508667
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="397767" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="gain" id="397767" interpolation-style="Exponential" time-domain="AudioTime" state="Play">
-        <events>a0 0.86257606744766235
-a154157984000 0.86257606744766235
-a154158393600 0.54003065824508667
-a444923923200 0.5400310754776001
-a444930476800 0.57713907957077026
-a445605497600 0.57713907957077026
-a445612051200 0.51328569650650024
-a445638265600 0.43061396479606628
-a445651372800 0.37842166423797607
-a445684140800 0.31149092316627502
-a445697248000 0.29308155179023743
-a445841427200 0.29308155179023743
-a445880748800 0.28122144937515259
-a445926624000 0.28122144937515259
-a445933177600 0.27541345357894897
-a445972499200 0.27541345357894897
-a445985606400 0.26968604326248169
-a446044588800 0.26968604326248169
-a446083910400 0.25847038626670837
-a446123232000 0.25847038626670837
-a446129785600 0.25298100709915161
-a446169107200 0.25298100709915161
-a446182214400 0.24756979942321777
-a450389625600 0.24756979942321777
-a450435500800 0.25298100709915161
-a450455161600 0.26403853297233582
-a450494483200 0.26403853297233582
-a450501036800 0.2696860134601593
-a450546912000 0.2696860134601593
-a450553465600 0.27541342377662659
-a450586233600 0.27541342377662659
-a450605894400 0.2871105968952179
-a450645216000 0.2871105968952179
-a450658323200 0.29308149218559265
-a450691091200 0.29308149218559265
-a450704198400 0.32418373227119446
-a450743520000 0.36433228850364685
-a450756627200 0.38560143113136292
-a450789395200 0.41523730754852295
-a450809056000 0.42287850379943848
-a450815609600 0.43844398856163025
-a450835270400 0.44636952877044678
-a450874592000 0.47903865575790405
-a450920467200 0.5045737624168396
-a450933574400 0.52209877967834473
-a450972896000 0.54003119468688965
-a454996806400 0.54003119468688965
-a455003360000 0.54915183782577515
-a455075449600 0.54915183782577515
-a455082003200 0.5583762526512146
-a461071993600 0.5583762526512146
-a461085100800 0.54003125429153442
-a461117868800 0.54003125429153442
-a461137529600 0.50457382202148438
-a461163744000 0.50457382202148438
-a461176851200 0.45439121127128601
-a461196512000 0.43844407796859741
-a461216172800 0.40768977999687195
-a461229280000 0.36433234810829163
-a461262048000 0.33065810799598694
-a461307923200 0.32418382167816162
-a461314476800 0.31779494881629944
-a461602835200 0.31779494881629944
-a461615942400 0.31149092316627502
-a464355347200 0.31149092316627502
-a464361900800 0.30527108907699585
-a464447097600 0.30527108907699585
-a464473312000 0.29308155179023743
-a464506080000 0.29308155179023743
-a464519187200 0.28711062669754028
-a464604384000 0.28711062669754028
-a464610937600 0.28122144937515259
-a464650259200 0.28122144937515259
-a464676473600 0.26968604326248169
-a464715795200 0.26968604326248169
-a464722348800 0.26403853297233582
-a464761670400 0.26403853297233582
-a464774777600 0.25847038626670837
-a465869228800 0.25847038626670837
-a465875782400 0.26403853297233582
-a465908550400 0.26403853297233582
-a465921657600 0.2696860134601593
-a465987193600 0.2696860134601593
-a466013408000 0.30527102947235107
-a466026515200 0.35059955716133118
-a466046176000 0.39287230372428894
-a466052729600 0.43061387538909912
-a466078944000 0.49596232175827026
-a466124819200 0.52209877967834473
-a466196908800 0.52209877967834473
-a466216569600 0.54003119468688965
-a466295212800 0.54003119468688965
-a466301766400 0.54915183782577515
-a466393516800 0.54915183782577515
-a466413177600 0.57713907957077026
-a466504928000 0.57713907957077026
-a466511481600 0.58667880296707153
-a466852268800 0.58667880296707153
-a466878483200 0.5583762526512146
-a466911251200 0.5583762526512146
-a466924358400 0.54915183782577515
-a468864224000 0.54915183782577515
-a468877331200 0.54003125429153442
-a468896992000 0.42287865281105042
-a468923206400 0.39287248253822327
-a468962528000 0.36433237791061401
-a468982188800 0.33065813779830933
-a469008403200 0.29308158159255981
-a469034617600 0.27541348338127136
-a469067385600 0.24756982922554016
-a469080492800 0.24223613739013672
-a469231225600 0.24223613739013672
-a469237779200 0.252981036901474
-a469316422400 0.252981036901474
-a469322976000 0.25847041606903076
-a469735852800 0.25847041606903076
-a469742406400 0.2640385627746582
-a470037318400 0.2640385627746582
-a470056979200 0.27541345357894897
-a470515731200 0.27541345357894897
-a470522284800 0.28122144937515259
-a470568160000 0.28122144937515259
-a470574713600 0.28711062669754028
-a473051974400 0.28711062669754028
-a473078188800 0.33721834421157837
-a473104403200 0.3856014609336853
-a473110956800 0.40768969058990479
-a473137171200 0.43061390519142151
-a473156832000 0.43061390519142151
-a473169939200 0.45439118146896362
-a473196153600 0.45439118146896362
-a473242028800 0.48745089769363403
-a473294457600 0.52209877967834473
-a473301011200 0.53101378679275513
-a473333779200 0.53101378679275513
-a473340332800 0.54003119468688965
-a473536940800 0.54003119468688965
-a473543494400 0.54915183782577515
-a475398163200 0.54915183782577515
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="87" left-frame="24060190" y-origin="6195">
-        <Selection>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="2"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="87" left-frame="24060190" y-origin="6195">
-        <Selection>
-          <ControlPoint type="track" route-id="397747" automation-list-id="397767" parameter="gain" view-index="2"/>
+          <Regions>
+            <Region id="1354943"/>
+            <Region id="1354842"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
