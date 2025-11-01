@@ -16,6 +16,10 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+01.11.2025
+- alle Lautstärken an den Fadern auf 0 hochgezogen (clipt alles wieder sehr jetzt)
+- Drums:
+-- EQ auf Toms, grobe Compressoren
 
 16.10.2025
 - Management: Vincents-Gitarren-Tuba-Ton entfernt
