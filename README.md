@@ -22,6 +22,11 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 -- EQ auf Toms, grobe Kompressoren
 - Gesang:
 -- auf die cleanen Spuren grobe EQs und Kompressoren
+-- alle Lautstärken bisschen abgepasst
+-- teileweise Effektautomation getestet
+--- David 9€ Finale
+--- alle bei Glockenmann
+--- GVerb kann man nich automatisiert an und aus machen??? Schade!
 
 16.10.2025
 - Management: Vincents-Gitarren-Tuba-Ton entfernt
