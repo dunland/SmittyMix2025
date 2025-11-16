@@ -16,17 +16,18 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
-01.11.2025
-- alle Lautstärken an den Fadern auf 0 hochgezogen (clipt alles wieder sehr jetzt)
+
+~~01.11.2025
+- ~~alle Lautstärken an den Fadern auf 0 hochgezogen (clipt alles wieder sehr jetzt)
 - Drums:
--- EQ auf Toms, grobe Kompressoren
+	- EQ auf Toms, grobe Kompressoren
 - Gesang:
--- auf die cleanen Spuren grobe EQs und Kompressoren
--- alle Lautstärken bisschen abgepasst
--- teileweise Effektautomation getestet
---- David 9€ Finale
---- alle bei Glockenmann
---- GVerb kann man nich automatisiert an und aus machen??? Schade!
+	- auf die cleanen Spuren grobe EQs und Kompressoren
+	- alle Lautstärken bisschen abgepasst
+	- teileweise Effektautomation getestet
+	- David 9€ Finale
+	- alle bei Glockenmann
+	- GVerb kann man nich automatisiert an und aus machen??? Schade!
 
 17.10.2025
 - Juwelen-Gitarre aus der 2. Strophe geklaut und nach vorn gesetzt
@@ -41,10 +42,10 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 - Magma Take 2 entfernt
 - Magma Strophe Leadgitarre lauter
 - Drums:
--- großen Lowcut auf Hihat und Ride gesetzt
--- kleinen Hi- und Lowcut auf die Toms gesetzt
+	- großen Lowcut auf Hihat und Ride gesetzt
+	- kleinen Hi- und Lowcut auf die Toms gesetzt
 - Gesang:
--- großen Lowcut, kleinen Hicut auf Dry und Wet Gruppenspuren gemacht
+	- großen Lowcut, kleinen Hicut auf Dry und Wet Gruppenspuren gemacht
 - alle Fader runtergedrhet, sodass nichts mehr clipt
 - angefangen Gesangslautstärken zu automatisieren
 
