@@ -1,912 +1,1027 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1762036057" tv-usec="946067" name="adjust region gain">
+  <UndoTransaction tv-sec="1763290819" tv-usec="116345" name="adjust region gain">
+    <StatefulDiffCommand obj-id="420242" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="0.19952614605426788" to="0.17782787978649139"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <StatefulDiffCommand obj-id="490473" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="0.28183823823928833" to="0.25118857622146606"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="77200154" y-origin="3296">
+        <Selection>
+          <Regions>
+            <Region id="420242"/>
+            <Region id="490473"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="77200154" y-origin="3296">
+        <Selection>
+          <Regions>
+            <Region id="420242"/>
+            <Region id="490473"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763290835" tv-usec="670574" name="delete objects">
+    <MementoCommand obj-id="397773" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="mute" id="397773" interpolation-style="Discrete" time-domain="AudioTime" state="Touch">
+        <events>a58537190400 0
+a58950067200 1
+a60719539200 1
+a88725523200 1
+a88732076800 0
+a88941792000 0
+a504927360000 0
+a508626624000 0
+a508626624000 1
+a510094630400 0
+a510940044800 0
+</events>
+      </AutomationList>
+      <AutomationList automation-id="mute" id="397773" interpolation-style="Discrete" time-domain="AudioTime" state="Touch">
+        <events>a58537190400 0
+a58950067200 1
+a60719539200 1
+a88725523200 1
+a88732076800 0
+a88941792000 0
+a504927360000 0
+a508626624000 0
+a510094630400 0
+a510940044800 0
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="77200154" y-origin="3296">
+        <Selection>
+          <ControlPoint type="track" route-id="397747" automation-list-id="397773" parameter="mute" view-index="8"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="77200154" y-origin="3296">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763290859" tv-usec="370492" name="adjust region gain">
+    <StatefulDiffCommand obj-id="653974" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="1" to="1.1220184564590454"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78175672" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78175672" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763290859" tv-usec="539397" name="adjust region gain">
+    <StatefulDiffCommand obj-id="653974" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="1.1220184564590454" to="1.2589254379272461"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78185017" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78185017" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763290859" tv-usec="697372" name="adjust region gain">
+    <StatefulDiffCommand obj-id="653974" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <scale-amplitude from="1.2589254379272461" to="1.4125375747680664"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78188654" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78188654" y-origin="4429">
+        <Selection>
+          <Regions>
+            <Region id="653974"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763290871" tv-usec="557385" name="adjust region gain">
     <StatefulDiffCommand obj-id="482734" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="0.56234133243560791" to="0.50118720531463623"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459738" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.1220184564590454" to="1"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1074723" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.44668358564376831" to="0.39810717105865479"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459605" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.9952625036239624" to="1.7782796621322632"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="485498" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.56234133243560791" to="0.50118720531463623"/>
+        <scale-amplitude from="0.39810717105865479" to="0.44668358564376831"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78712810" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78712810" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762036058" tv-usec="324157" name="adjust region gain">
+  <UndoTransaction tv-sec="1763290871" tv-usec="718873" name="adjust region gain">
     <StatefulDiffCommand obj-id="482734" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="0.50118720531463623" to="0.44668358564376831"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459738" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1" to="0.89125090837478638"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1074723" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.39810717105865479" to="0.35481336712837219"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459605" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.7782796621322632" to="1.5848933458328247"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="485498" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.50118720531463623" to="0.44668358564376831"/>
+        <scale-amplitude from="0.44668358564376831" to="0.50118720531463623"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78721588" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78721588" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762036058" tv-usec="557820" name="adjust region gain">
+  <UndoTransaction tv-sec="1763290871" tv-usec="846441" name="adjust region gain">
     <StatefulDiffCommand obj-id="482734" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="0.44668358564376831" to="0.39810717105865479"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459738" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.89125090837478638" to="0.79432821273803711"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1074723" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.35481336712837219" to="0.31622773408889771"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="459605" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.5848933458328247" to="1.412537693977356"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="485498" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.44668358564376831" to="0.39810717105865479"/>
+        <scale-amplitude from="0.50118720531463623" to="0.56234133243560791"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78726917" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="54186" left-frame="40987257" y-origin="1023">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78726917" y-origin="3708">
         <Selection>
           <Regions>
             <Region id="482734"/>
-            <Region id="459738"/>
-            <Region id="1074723"/>
-            <Region id="459605"/>
-            <Region id="485498"/>
           </Regions>
-          <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762036204" tv-usec="677431" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436016" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436016" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
+  <UndoTransaction tv-sec="1763290872" tv-usec="841204" name="record mute automation">
+    <MementoCommand obj-id="397773" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="mute" id="397773" interpolation-style="Discrete" time-domain="AudioTime" state="Touch">
+        <events>a58537190400 0
+a58950067200 1
+a60719539200 1
+a88725523200 1
+a88732076800 0
+a88941792000 0
+a504927360000 0
 </events>
       </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436016" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a486246489600 0
-a486253043200 0.014598540030419827
-a486259596800 0.029197080060839653
-a486272704000 0.051094889640808105
-a486279257600 0.08759123831987381
-a486285811200 0.16788321733474731
-a486298918400 0.24817518889904022
-a486305472000 0.31386861205101013
-a486312025600 0.34306567907333374
-a486325132800 0.35766422748565674
-a486331686400 0.38686132431030273
-a486338240000 0.41605839133262634
-a486344793600 0.43795621395111084
-a486357900800 0.47445255517959595
-a486364454400 0.51824820041656494
-a486371008000 0.56204378604888916
-a486384115200 0.58394157886505127
-a486390668800 0.62043797969818115
-a486397222400 0.63503646850585938
-a486410329600 0.64963501691818237
-a486416883200 0.65693432092666626
-a486423436800 0.67153286933898926
-a486436544000 0.68613135814666748
-a486443097600 0.70802921056747437
-a486449651200 0.72992700338363647
-a486456204800 0.74452555179595947
-a486469312000 0.74452555179595947
-a486475865600 0.77372264862060547
-a486482419200 0.79562044143676758
-a486534848000 0.79562044143676758
-a486541401600 0.80291968584060669
-a486567616000 0.80291968584060669
-a486580723200 0.81021898984909058
-a486593830400 0.81021898984909058
-a486606937600 0.81751823425292969
-a486698688000 0.81751823425292969
-a486705241600 0.82481753826141357
-a486731456000 0.82481753826141357
-a486738009600 0.83211678266525269
-a486816652800 0.83211678266525269
-a486823206400 0.83941608667373657
-a487006707200 0.83941608667373657
-a487019814400 0.84671533107757568
-a487032921600 0.84671533107757568
-a487046028800 0.85401457548141479
-a487340940800 0.85401457548141479
-a487347494400 0.86131387948989868
-a497014054400 0.86131387948989868
+      <AutomationList automation-id="mute" id="397773" interpolation-style="Discrete" time-domain="AudioTime" state="Off">
+        <events>a58537190400 0
+a58950067200 1
+a60719539200 1
+a88725523200 1
+a88732076800 0
+a88941792000 0
+a504927360000 0
+a508626624000 0
+a510094630400 0
+a511929638400 0
 </events>
       </AutomationList>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762036231" tv-usec="11091" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436016" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436016" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a486246489600 0
-a486259596800 0.029197080060839653
-a486272704000 0.051094889640808105
-a486279257600 0.08759123831987381
-a486285811200 0.16788321733474731
-a486298918400 0.24817518889904022
-a486305472000 0.31386861205101013
-a486312025600 0.34306567907333374
-a486325132800 0.35766422748565674
-a486338240000 0.41605839133262634
-a486357900800 0.47445255517959595
-a486371008000 0.56204378604888916
-a486384115200 0.58394157886505127
-a486390668800 0.62043797969818115
-a486397222400 0.63503646850585938
-a486416883200 0.65693432092666626
-a486423436800 0.67153286933898926
-a486436544000 0.68613135814666748
-a486449651200 0.72992700338363647
-a486456204800 0.74452555179595947
-a486469312000 0.74452555179595947
-a486482419200 0.79562044143676758
-a486534848000 0.79562044143676758
-a486541401600 0.80291968584060669
-a486567616000 0.80291968584060669
-a486580723200 0.81021898984909058
-a486593830400 0.81021898984909058
-a486606937600 0.81751823425292969
-a486698688000 0.81751823425292969
-a486705241600 0.82481753826141357
-a486731456000 0.82481753826141357
-a486738009600 0.83211678266525269
-a486816652800 0.83211678266525269
-a486823206400 0.83941608667373657
-a487006707200 0.83941608667373657
-a487019814400 0.84671533107757568
-a487032921600 0.84671533107757568
-a487046028800 0.85401457548141479
-a487340940800 0.85401457548141479
-a487347494400 0.86131387948989868
-a497014054400 0.86131387948989868
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436016" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a486246489600 0
-a486259596800 0.029197080060839653
-a486272704000 0.051094889640808105
-a486279257600 0.08759123831987381
-a486285811200 0.16788321733474731
-a486298918400 0.24817518889904022
-a486305472000 0.31386861205101013
-a486312025600 0.34306567907333374
-a486325132800 0.35766422748565674
-a486338240000 0.41605839133262634
-a486357900800 0.47445255517959595
-a486371008000 0.56204378604888916
-a486384115200 0.58394157886505127
-a486390668800 0.62043797969818115
-a486397222400 0.63503646850585938
-a486416883200 0.65693432092666626
-a486423436800 0.67153286933898926
-a486436544000 0.68613135814666748
-a486449651200 0.72992700338363647
-a486456204800 0.74452555179595947
-a486469312000 0.74452555179595947
-a486482419200 0.79562044143676758
-a486534848000 0.79562044143676758
-a486541401600 0.80291968584060669
-a486567616000 0.80291968584060669
-a486580723200 0.81021898984909058
-a486593830400 0.81021898984909058
-a486606937600 0.81751823425292969
-a486698688000 0.81751823425292969
-a486705241600 0.82481753826141357
-a486731456000 0.82481753826141357
-a486738009600 0.83211678266525269
-a486816652800 0.83211678266525269
-a486823206400 0.83941608667373657
-a487006707200 0.83941608667373657
-a487019814400 0.84671533107757568
-a487032921600 0.84671533107757568
-a487046028800 0.85401457548141479
-a487340940800 0.85401457548141479
-a487347494400 0.86131387948989868
-a497014054400 0.86131387948989868
-a520347532800 0.86131387948989868
-a520354086400 0.85401463508605957
-a520419622400 0.85401463508605957
-a520432729600 0.84671533107757568
-a520439283200 0.83941608667373657
-a520445836800 0.83941608667373657
-a520458944000 0.82481753826141357
-a520465497600 0.80291974544525146
-a520472051200 0.78832119703292847
-a520478604800 0.77372264862060547
-a520491712000 0.76642334461212158
-a520498265600 0.75182485580444336
-a520504819200 0.73722630739212036
-a520517926400 0.72262775897979736
-a520524480000 0.70802921056747437
-a520531033600 0.64963507652282715
-a520544140800 0.60583943128585815
-a520550694400 0.57664233446121216
-a520557248000 0.54744523763656616
-a520563801600 0.51094889640808105
-a520576908800 0.48905110359191895
-a520583462400 0.46715328097343445
-a520590016000 0.43795621395111084
-a520603123200 0.42335766553878784
-a520609676800 0.39416059851646423
-a520616230400 0.37226277589797974
-a520629337600 0.33576643466949463
-a520635891200 0.29197081923484802
-a520642444800 0.24087592959403992
-a520648998400 0.20437957346439362
-a520662105600 0.16788321733474731
-a520668659200 0.14598540961742401
-a520675212800 0.12408760190010071
-a520688320000 0.10948906093835831
-a520694873600 0.087591253221035004
-a520701427200 0.058394171297550201
-a520714534400 0.021897820755839348
-a520721088000 1.087676082534017e-08
-a520727641600 0
-a521802432000 0
-</events>
-      </AutomationList>
+  <UndoTransaction tv-sec="1763291359" tv-usec="79771" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9562560" end="b9562560" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
     </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036322" tv-usec="494151" name="Automationsbereich bewegen">
-    <MementoUndoCommand obj-id="1436035" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a481698092800 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="1436035" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a481698092800 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="6" left-frame="0" y-origin="868">
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="33883662" y-origin="3811">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="1436035" parameter="parameter-2" view-index="0"/>
-          <ControlPoint type="track" route-id="378726" automation-list-id="1436035" parameter="parameter-2" view-index="1"/>
-          <Marker id="135183" start="0"/>
+          <Marker id="115138" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="6" left-frame="0" y-origin="868">
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="33883662" y-origin="3811">
         <Selection>
-          <ControlPoint type="track" route-id="378726" automation-list-id="1436035" parameter="parameter-2" view-index="0"/>
-          <ControlPoint type="track" route-id="378726" automation-list-id="1436035" parameter="parameter-2" view-index="1"/>
-          <Marker id="135183" start="0"/>
+          <Marker id="115138" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762036368" tv-usec="951664" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436035" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a665600 0.83806041310587365
-a1075200 0
-a1484800 0
-a481698092800 0
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a665600 0.83806041310587365
-a1075200 0
-a1484800 0
-a481698092800 0
-a487662700800 0
-a487669254400 0.0072992700152099133
-a487675808000 0.014598540030419827
-a487688915200 0.029197080060839653
-a487695468800 0.043795619159936905
-a487702022400 0.08759123831987381
-a487708576000 0.11678832024335861
-a487721683200 0.15328466892242432
-a487728236800 0.20437955856323242
-a487734790400 0.29197078943252563
-a487747897600 0.45255473256111145
-a487754451200 0.58394157886505127
-a487761004800 0.65693432092666626
-a487774112000 0.66423356533050537
-a487780665600 0.67153286933898926
-a487819987200 0.67153286933898926
-a487833094400 0.67883211374282837
-a487839648000 0.68613135814666748
-a487931398400 0.68613135814666748
-a487944505600 0.69343066215515137
-a490139961600 0.69343066215515137
-</events>
-      </AutomationList>
+  <UndoTransaction tv-sec="1763291363" tv-usec="212651" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9562560" end="b9562560" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9511680" end="b9511680" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
     </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036388" tv-usec="882679" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436035" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a665600 0.83806041310587365
-a1075200 0
-a487662700800 0
-a487688915200 0.029197080060839653
-a487695468800 0.043795619159936905
-a487702022400 0.08759123831987381
-a487708576000 0.11678832024335861
-a487721683200 0.15328466892242432
-a487728236800 0.20437955856323242
-a487734790400 0.29197078943252563
-a487747897600 0.45255473256111145
-a487754451200 0.58394157886505127
-a487761004800 0.65693432092666626
-a487780665600 0.67153286933898926
-a487819987200 0.67153286933898926
-a487839648000 0.68613135814666748
-a487931398400 0.68613135814666748
-a487944505600 0.69343066215515137
-a490139961600 0.69343066215515137
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436035" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.83806157112121582
-a665600 0.83806041310587365
-a1075200 0
-a487662700800 0
-a487688915200 0.029197080060839653
-a487695468800 0.043795619159936905
-a487702022400 0.08759123831987381
-a487708576000 0.11678832024335861
-a487721683200 0.15328466892242432
-a487728236800 0.20437955856323242
-a487734790400 0.29197078943252563
-a487747897600 0.45255473256111145
-a487754451200 0.58394157886505127
-a487761004800 0.65693432092666626
-a487780665600 0.67153286933898926
-a487819987200 0.67153286933898926
-a487839648000 0.68613135814666748
-a487931398400 0.68613135814666748
-a487944505600 0.69343066215515137
-a490139961600 0.69343066215515137
-a520180512000 0.69343066215515137
-a520187065600 0.68613141775131226
-a520193619200 0.67883211374282837
-a520265708800 0.67883211374282837
-a520272262400 0.67153286933898926
-a520278816000 0.64963501691818237
-a520291923200 0.61313867568969727
-a520298476800 0.58394163846969604
-a520305030400 0.55474454164505005
-a520318137600 0.53284674882888794
-a520324691200 0.51824820041656494
-a520331244800 0.49635037779808044
-a520337798400 0.48175182938575745
-a520350905600 0.46715328097343445
-a520357459200 0.44525548815727234
-a520364012800 0.42335766553878784
-a520377120000 0.39416059851646423
-a520383673600 0.36496350169181824
-a520390227200 0.32846716046333313
-a520403334400 0.29197081923484802
-a520409888000 0.26277372241020203
-a520416441600 0.24087591469287872
-a520422995200 0.22627738118171692
-a520436102400 0.21897810697555542
-a520442656000 0.21167883276939392
-a520449209600 0.19708029925823212
-a520462316800 0.18978102505207062
-a520468870400 0.18248175084590912
-a520475424000 0.17518249154090881
-a520488531200 0.15328468382358551
-a520495084800 0.13868613541126251
-a520501638400 0.12408759444952011
-a520514745600 0.11678832769393921
-a520521299200 0.10218978673219681
-a520527852800 0.087591245770454407
-a520534406400 0.065693438053131104
-a520547513600 0.051094897091388702
-a520554067200 0.0218978151679039
-a520560620800 0.0072992751374840736
-a520573728000 5.2208455336710813e-09
-a520580281600 0
-a520901408000 0
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416596" name="Roomsize (m) Automation aufnehmen">
-    <MementoCommand obj-id="1435867" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-0" id="1435867" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 240.66236877441406
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-0" id="1435867" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 240.66236877441406
-a956825600 240.66236877441406
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416651" name="Reverb time (s) Automation aufnehmen">
-    <MementoCommand obj-id="1435869" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-1" id="1435869" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 2.0265464782714844
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-1" id="1435869" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 2.0265464782714844
-a956825600 2.0265464782714844
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416684" name="Damping Automation aufnehmen">
-    <MementoCommand obj-id="1435871" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1435871" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.65463912487030029
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1435871" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.65463912487030029
-a956825600 0.65463912487030029
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416728" name="Input bandwidth Automation aufnehmen">
-    <MementoCommand obj-id="1435873" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-3" id="1435873" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.75
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-3" id="1435873" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0.75
-a956825600 0.75
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416781" name="Dry signal level (dB) Automation aufnehmen">
-    <MementoCommand obj-id="1435875" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-4" id="1435875" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 -70
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-4" id="1435875" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 -70
-a956825600 -70
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416819" name="Early reflection level (dB) Automation aufnehmen">
-    <MementoCommand obj-id="1435877" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-5" id="1435877" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-5" id="1435877" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a956825600 0
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762036510" tv-usec="416857" name="Tail level (dB) Automation aufnehmen">
-    <MementoCommand obj-id="1435879" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-6" id="1435879" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 -12.448451995849609
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-6" id="1435879" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 -12.448451995849609
-a956825600 -12.448451995849609
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762037044" tv-usec="88257" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-a486445849600 1
-a486458956800 0.99270075559616089
-a486465510400 0.99270075559616089
-a486472064000 0.985401451587677
-a486485171200 0.97810220718383789
-a486491724800 0.95620435476303101
-a486498278400 0.94160586595535278
-a486504832000 0.88321167230606079
-a486517939200 0.80291968584060669
-a486524492800 0.72992700338363647
-a486531046400 0.65693432092666626
-a486544153600 0.63503646850585938
-a486550707200 0.60583943128585815
-a486557260800 0.57664233446121216
-a486570368000 0.54744523763656616
-a486576921600 0.51094889640808105
-a486583475200 0.38686132431030273
-a486590028800 0.29927006363868713
-a486603136000 0.19708029925823212
-a486609689600 0.13138686120510101
-a486616243200 0.065693430602550507
-a486629350400 0.029197080060839653
-a486635904000 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487605836800 0.83211678266525269
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487638604800 0.94160586595535278
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762037070" tv-usec="441128" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-a484341100800 1
-a484341510400 0
-a484341920000 1
-a486445849600 1
-a486465510400 0.99270075559616089
-a486485171200 0.97810220718383789
-a486498278400 0.94160586595535278
-a486504832000 0.88321167230606079
-a486517939200 0.80291968584060669
-a486531046400 0.65693432092666626
-a486544153600 0.63503646850585938
-a486557260800 0.57664233446121216
-a486570368000 0.54744523763656616
-a486576921600 0.51094889640808105
-a486583475200 0.38686132431030273
-a486590028800 0.29927006363868713
-a486603136000 0.19708029925823212
-a486616243200 0.065693430602550507
-a486629350400 0.029197080060839653
-a486635904000 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-a484341100800 1
-a484341510400 0
-a486851539200 0
-a486851948800 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1762037076" tv-usec="543669" name="Automationspunkt bewegen">
-    <MementoUndoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-a484341100800 1
-a484341510400 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 1
-a484341100800 0
-a484341510400 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="1354842" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="a399769600@a94026969237" to="a422316800@a94026969237"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1356538" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003014593821
-a399769600 1.0000004002716181
-a399769600 1.0000004002716181
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1356539" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003014593821
-a399769600 1.0000004002716181
-a422316800 1.0000004002716181
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="7609" left-frame="71676361" y-origin="992">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78157524" y-origin="3811">
         <Selection>
-          <ControlPoint type="track" route-id="457940" automation-list-id="1436209" parameter="parameter-2" view-index="1"/>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78157524" y-origin="3811">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291374" tv-usec="390396" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9511680" end="b9511680" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78591977" y-origin="3090">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4478" left-frame="78591977" y-origin="3090">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291741" tv-usec="885447" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b9909120" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="32748569" y-origin="4223">
+        <Selection>
+          <Marker id="1427" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="32748569" y-origin="4223">
+        <Selection>
+          <Marker id="1427" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291745" tv-usec="48314" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8810880" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8780640" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="32748569" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="71648" left-frame="32748569" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291751" tv-usec="262097" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8780640" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8760960" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8956" left-frame="75379129" y-origin="4223">
+        <Selection>
           <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="7609" left-frame="71676361" y-origin="992">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8956" left-frame="75379129" y-origin="4223">
         <Selection>
-          <ControlPoint type="track" route-id="457940" automation-list-id="1436209" parameter="parameter-2" view-index="1"/>
           <Marker id="135183" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762037089" tv-usec="158307" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a484341100800 0
-a484341510400 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a360448000 0
-a360857600 0
-a484341100800 0
-a484341510400 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
+  <UndoTransaction tv-sec="1763291753" tv-usec="650772" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8760960" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8760960" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8956" left-frame="69974183" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="8956" left-frame="69974183" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="0"/>
+        </Selection>
+      </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1762037109" tv-usec="777998" name="Dry/wet mix Automation aufnehmen">
-    <MementoCommand obj-id="1436209" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="parameter-2" id="1436209" interpolation-style="Linear" time-domain="AudioTime" state="Touch">
-        <events>a0 0
-a487540300800 0
-a487546854400 0.029197080060839653
-a487553408000 0.16788321733474731
-a487559961600 0.40145984292030334
-a487573068800 0.56204378604888916
-a487579622400 0.62773722410202026
-a487586176000 0.67883211374282837
-a487592729600 0.75182479619979858
-a487612390400 0.86861312389373779
-a487618944000 0.87591242790222168
-a487632051200 0.87591242790222168
-a487645158400 1
-a488136678400 1
-a520311584000 1
-a520318137600 0.970802903175354
-a520331244800 0.9197080135345459
-a520337798400 0.87591242790222168
-a520344352000 0.82481753826141357
-a520350905600 0.76642334461212158
-a520364012800 0.72262775897979736
-a520370566400 0.69343066215515137
-a520377120000 0.66423356533050537
-a520390227200 0.60583943128585815
-a520396780800 0.54744523763656616
-a520403334400 0.49635037779808044
-a520416441600 0.43795621395111084
-a520422995200 0.39416059851646423
-a520429548800 0.33576643466949463
-a520436102400 0.26277372241020203
-a520449209600 0.18978102505207062
-a520455763200 0.14598539471626282
-a520462316800 0.058394160121679306
-a520475424000 0.021897809579968452
-a520481977600 0
-a520691692800 0
-</events>
-      </AutomationList>
+  <UndoTransaction tv-sec="1763291761" tv-usec="942378" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b8760960" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="17912" left-frame="73392553" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="17912" left-frame="73392553" y-origin="4223">
+        <Selection>
+          <Marker id="135183" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291764" tv-usec="66741" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b9780480" end="b9780480" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="17912" left-frame="73392553" y-origin="4223">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="17912" left-frame="73392553" y-origin="4223">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291790" tv-usec="701833" name="remove marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+        <Location id="1550316" name="Loop" start="b352800" end="b460790" flags="IsAutoLoop" locked="0" timestamp="1763287884" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4782" left-frame="2223784" y-origin="2987">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4782" left-frame="2223784" y-origin="2987">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1763291793" tv-usec="672662" name="remove marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+        <Location id="1550305" name="vielleicht_saxophon" start="b352800" end="b460790" flags="IsRangeMarker" locked="0" timestamp="1763287838" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b1148267" end="b10783063" flags="IsSessionRange,IsClockOrigin" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b4748" end="b4748" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1150080" end="b1150080" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735673" end="b1735673" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2803200" end="b2803200" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802936" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4024414" end="b4024414" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4032000" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735680" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922880" end="b4922880" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922880" end="b5504640" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5639040" end="b5639040" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568320" end="b6568320" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568392" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7782059" end="b7782059" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8741760" end="b8741760" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma_Take1" start="b7782059" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5639040" end="b6430080" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="446500" name="Marker2" start="b1764743" end="b1764743" flags="IsMark" locked="0" timestamp="1757096792" cue="0"/>
+        <Location id="462639" name="Marker3" start="b5793050" end="b5793050" flags="IsMark" locked="0" timestamp="1757107089" cue="0"/>
+        <Location id="497756" name="Marker4" start="b5049120" end="b5049120" flags="IsMark" locked="0" timestamp="1757120341" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="4782" left-frame="2223784" y-origin="2987">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="4782" left-frame="2223784" y-origin="2987">
+        <Selection>
+          <Marker id="115138" start="1"/>
+        </Selection>
+      </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
 </UndoHistory>
