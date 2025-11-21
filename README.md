@@ -16,6 +16,17 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+21.11.2025  
+- Gedoppelte Gitarre von Tobias:
+    - Equalizer vereinheitlicht
+    - Lautstärken angepasst
+- Vincent Gesang:
+    - minimal Bässe rausgenommen
+- Tobias Gesang:
+    - minimal Bässe rausgenommen
+    - minimal Höhen reingemacht
+- 9€:
+    - Klicker nach Finale entfernt (war in Tobias' Take 1 Gitarre)
 
 16.11.2025  
 - alle Lieder durchgegangen, Gesang FX wieder rein gemacht aber sehr weit runter gezogen
