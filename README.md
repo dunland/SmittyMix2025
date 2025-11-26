@@ -16,6 +16,17 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+
+26.11.2025 Aufräumarbeiten
+- Juwelen, Management, Schlange, Tanker auf den Click geschoben
+- Rangemarker angepasst, damit Lieder nicht abgecshnitten werden: Schlange und andere
+- Automationen: bin ich nochmal durchgegangen, hier und da Ungereimtheiten ausgeräumt
+    - Gesang_Vincent_Dopplung_FX gelöscht, war quatsch (Anstieg über halbes Projekt)
+    - Tob_Reverb Azimuth: ebenfalls Anstieg/Abstieg über halbes Projekt`
+    - digitale Reverbs und Delays entfernt
+- Positionskorrekturen:
+    - Mattias zweite Stimme bei Antrieb
+
 21.11.2025  
 - Gedoppelte Gitarre von Tobias:
     - Equalizer vereinheitlicht
