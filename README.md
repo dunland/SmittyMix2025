@@ -17,6 +17,22 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+12.12.2025 Reampen
+
+- Antrieb
+    - Vincent+Mattias Gesang paar dB leiser und effektiert
+- Franka: nur effektiert
+- Management
+    - **TO DO**: Gesangslautstärken nochmal checken?
+- Glockenmann
+    - Gesangslautstärken Vincent+David lauter gemacht
+- Magma: (leider Effekte nicht fotografiert)
+    - Refrain Gesangslautstärken angepasst: Tob leiser, David+Mattias lauter
+- 9Euro nur effektiert
+- **allgemein**
+    - Hihat 2dB leiser!
+- **TO DO**: Vincent will den Bass lauter. Manchmal hört man nur so die ganz tiefen Töne; nicht so sehr den Basslauf? Ist vielleicht aber auch ne Sache der Lautsprecher
+
 26.11.2025 Aufräumarbeiten
 - Juwelen, Management, Schlange, Tanker auf den Click geschoben
 - Rangemarker angepasst, damit Lieder nicht abgecshnitten werden: Schlange und andere
