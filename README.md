@@ -1,5 +1,7 @@
 # SmittyWerben 2025 Aufnahmen
 
+eine weihnachtliche Testnotiz
+
 aufgenommen am 9.+10. August 2025 in Hamburch  
 Gitarren overdubs am 30.08., Gesang am 05.09. und 02.10.  
 
