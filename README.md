@@ -1,7 +1,5 @@
 # SmittyWerben 2025 Aufnahmen
 
-eine weihnachtliche Testnotiz
-
 aufgenommen am 9.+10. August 2025 in Hamburch  
 Gitarren overdubs am 30.08., Gesang am 05.09. und 02.10.  
 
@@ -18,6 +16,22 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+
+05.01.2026
+- Gesang-Effekte werden zu Gesänge_FX-Bus geroutet
+- reampte Gesang-FX um minimal nach hinten geschoben, damit Hauptgesänge präsent bleiben, wie [er hier](https://www.youtube.com/watch?v=qWAljsZ9EVA) sagt
+    - Antrieb: 60000 ms / 172 BPM / 4 = 87ms Versatz
+    - Franka, Dingeldongel -> 96 ms
+    - Juwelen, Management -> 93 ms
+    - Schlange -> 89 ms
+    - Tanker -> 185 ms
+    - 9€, Magma -> 90 ms
+    - Glockenmann -> 73 ms
+- Sidechain-Compression auf Effektspur, damit Original-Vocals die Effekte etwas wegdrücken, wie [er hier](https://www.youtube.com/watch?v=q9IVffynToc) sagt.
+- Gate Filter auf Vincents Stimme
+- Dingeldongel: Tobis Gesang lauter
+- **Dingeldongel: Git_tob-2-Senn Phase umkehren!** Das habe ich nicht gemacht, aber fände ich famos, da dann alles weniger kratzig und dosig klingt.
+- Bei 9€ fällt auf, dass Davids Stimme keine Höhen mehr hat und dadurch alle ß-Laute fehlen. Also habe ich im EQ den Lowpassfilter rausgenommen. Das habe ich bei allen Hauptstimmen für alle Lieder gemacht.
 
 12.12.2025 Reampen
 
