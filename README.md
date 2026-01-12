@@ -17,7 +17,23 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
 
+12.01.2026
+
+- Antrieb
+    - Vincent macht Hauptstimme; David ist leiser
+- Schlange
+    - alle Gesänge in Bridge leiser gemacht
+- Management
+    - bei "Unendliche Leiter" Gesänge leiser gemacht
+    - Vincents Gitarre beim Einstieg ins Finale minimal verschoben
+- Magma
+    - Tob Gitarre ein paar dB lauter gemacht
+- Juwelen
+    - gewünscht: Mehr Effekt auf Gesang insgesamt
+        - habe Clean-Gesang leiser gemacht. weiß nicht, ob Anheben der Lautstärke den gewünschten Effekt hat..
+
 05.01.2026
+
 - Gesang-Effekte werden zu Gesänge_FX-Bus geroutet
 - reampte Gesang-FX um minimal nach hinten geschoben, damit Hauptgesänge präsent bleiben, wie [er hier](https://www.youtube.com/watch?v=qWAljsZ9EVA) sagt
     - Antrieb: 60000 ms / 172 BPM / 4 = 87ms Versatz
@@ -50,6 +66,7 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 - **TO DO**: Vincent will den Bass lauter. Manchmal hört man nur so die ganz tiefen Töne; nicht so sehr den Basslauf? Ist vielleicht aber auch ne Sache der Lautsprecher
 
 26.11.2025 Aufräumarbeiten
+
 - Juwelen, Management, Schlange, Tanker auf den Click geschoben
 - Rangemarker angepasst, damit Lieder nicht abgecshnitten werden: Schlange und andere
 - Automationen: bin ich nochmal durchgegangen, hier und da Ungereimtheiten ausgeräumt
@@ -59,7 +76,8 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 - Positionskorrekturen:
     - Mattias zweite Stimme bei Antrieb
 
-21.11.2025  
+21.11.2025
+
 - Gedoppelte Gitarre von Tobias:
     - Equalizer vereinheitlicht
     - Lautstärken angepasst
@@ -71,7 +89,8 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 - 9€:
     - Klicker nach Finale entfernt (war in Tobias' Take 1 Gitarre)
 
-16.11.2025  
+16.11.2025
+
 - alle Lieder durchgegangen, Gesang FX wieder rein gemacht aber sehr weit runter gezogen
 - hier und da auch noch überflüssige Automationen entfernt
 - digitale Reverb- und Delay-Effekte entfernt
@@ -89,15 +108,18 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 	- GVerb kann man nich automatisiert an und aus machen??? Schade!
 
 17.10.2025
+
 - Juwelen-Gitarre aus der 2. Strophe geklaut und nach vorn gesetzt
 
 16.10.2025
+
 - Management: Vincents-Gitarren-Tuba-Ton entfernt
 - Glockenmann: letzten Basston rausgeschnitten
 - viel Bassgeschnibbel
 - Hihat 4,5dB leiser gemacht
 
-12.10.2025:
+12.10.2025
+
 - Magma Take 2 entfernt
 - Magma Strophe Leadgitarre lauter
 - Drums:
@@ -109,22 +131,27 @@ Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 - angefangen Gesangslautstärken zu automatisieren
 
 11.10.2025: branch Gitarrenmix in Master übernommen
+
 - Bass, Drums und Raummikrospuren geschnippelt, gefaded, aufgeräumt
 - Start/Ende der tracks präziser gesetzt
 - Davids Gesang bei der Bridge von 9€ gelöscht
 
 05.10.2025: neuen Branch erstellt für Gitarrenmix
+
 - Gitarren: EQ nochmal neu gemacht, einige Pannings automatisiert
 - Gitarren und Bass Spuren geschnippelt / aufgeräumt
 
 22.09.2025
+
 - Gitarren: EQ und Kompressoren, Pannings
 - Bass: EQ und Kompressor, Shure Mute
 
 19.09.2025
+
 - Bass: Subbass geboostet bei ca. 65Hz. Brauchen wir beide Basskanäle?
 
 03.09.2025 Analyse des Ardour-Crashs
+
 Tobias wollte zippen, während Ardour was exportiert hat. Irgendwie hat das wohl das Projekt gecrasht. Dann wollte Tob wohl nochmal pullen und dann kam es zum merge konflikt?
 
 - Startet man das Projekt, sieht man:
@@ -139,6 +166,7 @@ ERROR: XML error: StartTag: invalid element name in /home/dav/ardour-sessions/We
 - öffnet man die Projektdatei mit einem Code-Editor, sieht man, dass es offene merge-Konflikte gibt, die ja in die Datei geschrieben werden, und daher alles durcheinander bringen.
 
 30.08.2025
+
 - Calf Equalizer durch x42 ersetzt
 - Hihat Phase umgedreht, weil die genau umgekehrt zu Ride und Snare ist
 - Lautstärken: Bin nochmal durch alle Kompressoren gegangen und habe Attack & Release angepasst, das macht ganz schön viel aus!
@@ -146,6 +174,7 @@ ERROR: XML error: StartTag: invalid element name in /home/dav/ardour-sessions/We
 - grob alle Gitarrenlautstärken gemacht
 
 23.08.2025
+
 - Schlagzeug: Wurst und Kick vertragen sich leider gar nicht. **Wenn bei Wurst die Phase umgedreht wird, hat die Kick viel mehr Druck!**
 - Schlagzeug EQs:
     - Kick braucht quasi nix

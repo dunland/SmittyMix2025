@@ -1,3 +1,60 @@
+# Vincents Notizen
+
+hier nochmal meine Anmerkungen, leider check ich github noch nicht so sehr das ich das dort eintragen kann:
+
+Noch anzupassen (Vincent); 
+
+Lautsprecher Yamaha
+
+## Schlange
+
+Gesang Bridge:
+
+- [x] Etwas leiser/mehr Reverb bzw.Effekt → klingt dann plötzlich etwas laut/präsent
+
+## Management
+
+- [x] Gesang/Leadgitarre Ref (unendliche Leiter...)
+→ Leadgitarre sollte ganz vorne sein!
+Gesang mehr Effekt/Reverb, sollte breiter klingen evtl stark pan oder dezent leiser
+
+## Magma
+
+- [x] Strophe Leadgitarre etwas lauter
+
+## Juwelen
+
+- [x] Mehr Effekt auf Gesang insgesamt
+    - habe Clean-Gesang leiser gemacht.
+    - weiß nicht, ob Anheben der Lautstärke den gewünschten Effekt hat
+
+## Dingel Dongel
+
+Ref. 2 Leadgitarre lauter
+Finaler Leadgitarre etwas lauter
+
+## Antrieb
+
+- [x] Strophe 1: Einer sollte die Hauptstimme machen? Finde das sich das an der Stelle nicht so gut mischt. David oder ich (mir egal, fände beides gut glaub ich)
+
+## 9 Euro
+
+Ref. 2 Leadgitarre lauter
+Finale Leadgitarre etwas lauter
+
+## Tanker
+
+Finale einfach ein paar bpm langsamer machen (haha, vllt einfach mal testen, ist ja eig. ne übliche Methode)
+
+
+## to do:
+
+- den Liedern finale Namen geben
+
+
+# Davids Notizen
+
+
 # Gesang
 ### 01 Magma
 - ~~Matt: Refrain ?~~  
