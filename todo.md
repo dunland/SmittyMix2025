@@ -45,6 +45,7 @@ Finale Leadgitarre etwas lauter
 ## Tanker
 
 Finale einfach ein paar bpm langsamer machen (haha, vllt einfach mal testen, ist ja eig. ne übliche Methode)
+- ich weiß gar nicht, wie das geht eigentlich
 
 
 ## to do:

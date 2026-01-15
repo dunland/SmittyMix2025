@@ -3,7 +3,9 @@
 aufgenommen am 9.+10. August 2025 in Hamburch  
 Gitarren overdubs am 30.08., Gesang am 05.09. und 02.10.  
 
-Ardour 8.12
+Mischpult: Mackie Onyx 1640i
+DAW: Ardour 8.12
+44.1kHz, 32bit
 
 ## Ordnerstruktur
 
@@ -16,6 +18,11 @@ wichtig für git Versionierung:
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
 ## Mixlog
+
+14.01.2026 Aufräumaktion
+
+- Spur "Drums FX" entfernt – war leer.
+- ganz viel Umbenennung von Regions, in der Hoffnung, Übersicht zu schaffen (hilft nicht, da Quelldateien nicht mit umbenannt werden..)
 
 12.01.2026
 

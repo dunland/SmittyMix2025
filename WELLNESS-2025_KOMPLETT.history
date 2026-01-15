@@ -1,449 +1,478 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1768223077" tv-usec="550038" name="adjust region gain">
-    <StatefulDiffCommand obj-id="498902" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.48132908344268799" to="0.42898496985435486"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961951" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="0.91263580322265625"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961942" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="0.91263580322265625"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958756" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="0.91263580322265625"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958670" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="0.91263580322265625"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768223089" tv-usec="904404" name="adjust region gain">
-    <StatefulDiffCommand obj-id="498902" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.42898496985435486" to="0.48132902383804321"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961951" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.91263580322265625" to="1.0239942073822021"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961942" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.91263580322265625" to="1.0239942073822021"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958756" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.91263580322265625" to="1.0239942073822021"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958670" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.91263580322265625" to="1.0239942073822021"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768223090" tv-usec="84578" name="adjust region gain">
-    <StatefulDiffCommand obj-id="498902" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.48132902383804321" to="0.54006004333496094"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961951" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="1.1489404439926147"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961942" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="1.1489404439926147"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958756" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="1.1489404439926147"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958670" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.0239942073822021" to="1.1489404439926147"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768223090" tv-usec="256356" name="adjust region gain">
-    <StatefulDiffCommand obj-id="498902" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="0.54006004333496094" to="0.60595732927322388"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961951" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.1489404439926147" to="1.2891323566436768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="961942" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.1489404439926147" to="1.2891323566436768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958756" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.1489404439926147" to="1.2891323566436768"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="958670" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.1489404439926147" to="1.2891323566436768"/>
-      </Changes>
-    </StatefulDiffCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224806" tv-usec="496061" name="Region start trim">
-    <StatefulDiffCommand obj-id="35330" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a16020770789" to="a16027026587"/>
-        <length from="a9896704000@a351632940653" to="a9890444800@a351639196451"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1886465" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002826101688
-a2101222400 1.0000002826101688
-a9896704000 1.0000002405518658
+  <UndoTransaction tv-sec="1768386605" tv-usec="340125" name="delete objects">
+    <MementoCommand obj-id="471188" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="471188" interpolation-style="Linear" time-domain="BeatTime" state="Latch">
+        <events>b598818 0.70175433158874512
+b601084 0.5
+b1221120 0.5
+b1228800 0.60843372344970703
+b1528320 0.60843372344970703
+b1536000 0.5
+b6693437 0.5
+b6697295 0.67647051811218262
+b6759332 0.67647051811218262
+b6763696 0.5
+b11916454 0.5
 </events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1886466" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003826101689
-a2094963200 1.0000002826101688
-a9890444800 1.0000002405518658
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="471188" interpolation-style="Linear" time-domain="BeatTime" state="Latch">
+        <events>b1228800 0.60843372344970703
+b1528320 0.60843372344970703
+b1536000 0.5
+b6693437 0.5
+b6697295 0.67647051811218262
+b6759332 0.67647051811218262
+b6763696 0.5
+b11916454 0.5
 </events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="35330"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="35330"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
+      </AutomationList>
     </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224808" tv-usec="512380" name="Region start trim">
-    <StatefulDiffCommand obj-id="35360" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a16020770789" to="a16029975501"/>
-        <length from="a9896704000@a351632940653" to="a9887494400@a351642145365"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1886575" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002826101688
-a2101222400 1.0000002826101688
-a9896704000 1.0000002405518658
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1886576" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003826101689
-a2092012800 1.0000002826101688
-a9887494400 1.0000002405518658
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
+    <MementoCommand obj-id="49" type-name="Editor">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8282" left-frame="3208239" y-origin="1519">
         <Selection>
-          <Regions>
-            <Region id="35360"/>
-          </Regions>
+          <ControlPoint type="track" route-id="471153" automation-list-id="471188" parameter="pan-azimuth" view-index="0"/>
+          <ControlPoint type="track" route-id="471153" automation-list-id="471188" parameter="pan-azimuth" view-index="1"/>
+          <ControlPoint type="track" route-id="471153" automation-list-id="471188" parameter="pan-azimuth" view-index="2"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="35360"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224809" tv-usec="771036" name="Region start trim">
-    <StatefulDiffCommand obj-id="35360" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="a16029975501" to="a16027026587"/>
-        <length from="a9887494400@a351642145365" to="a9890438400@a351639196451"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1886685" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003826101689
-a2092012800 1.0000002826101688
-a9887494400 1.0000002405518658
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1886686" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000003826101689
-a2944000 1.0000003826101689
-a2094956800 1.0000002826101688
-a9890438400 1.0000002405518658
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="35360"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="35360"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224816" tv-usec="928971" name="Region end trim">
-    <StatefulDiffCommand obj-id="34050" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="a24613945600@a327025250851" to="a24633580800@a327025250851"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1886795" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002743639866
-a24613945600 1.0000002810272293
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1886796" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002743639866
-a24613945600 1.0000002810272293
-a24633580800 1.0000002810272293
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="34050"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="34050"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224820" tv-usec="153474" name="Region end trim">
-    <StatefulDiffCommand obj-id="34080" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <length from="a24613945600@a327025250851" to="a24633580800@a327025250851"/>
-        <Envelope>
-          <from>
-            <AutomationList automation-id="envelope" id="1886905" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002743639866
-a24613945600 1.0000002810272293
-</events>
-            </AutomationList>
-          </from>
-          <to>
-            <AutomationList automation-id="envelope" id="1886906" interpolation-style="Exponential" time-domain="AudioTime" state="Off">
-              <events>a0 1.0000002743639866
-a24613945600 1.0000002810272293
-a24633580800 1.0000002810272293
-</events>
-            </AutomationList>
-          </to>
-        </Envelope>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="34080"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="54895067" y-origin="1173">
-        <Selection>
-          <Regions>
-            <Region id="34080"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224901" tv-usec="671710" name="split">
-    <StatefulDiffCommand obj-id="457875" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="1887119"/>
-          <Add id="1887128"/>
-          <Remove id="462932"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseCut" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseCut" zoom="2048" left-frame="50636187" y-origin="3243">
+      <SelectionMemento mouse-mode="MouseObject" zoom="8282" left-frame="3208239" y-origin="1519">
         <Selection/>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1768224905" tv-usec="6775" name="adjust region gain">
-    <StatefulDiffCommand obj-id="1887119" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.7782795429229736" to="1.5848933458328247"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
+  <UndoTransaction tv-sec="1768386627" tv-usec="42681" name="delete objects">
+    <MementoCommand obj-id="378761" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="378761" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b924652 0.63865220546722412
+b1137934 0.64598542451858521
+b1233564 0.64598542451858521
+b1729586 0.62142860889434814
+b1729594 0.50049841403961182
+b4338631 0.49768692255020142
+b4351986 0.23451507091522217
+b4476787 0.23438036441802979
+b4483366 0.49753135442733765
+b5042909 0.49680966138839722
+b5043378 0.40415340662002563
+b5192746 0.40393567085266113
+b5208033 0.50958466529846191
+b7883110 0.50958466529846191
+b10667923 0.50490200519561768
+b10672354 0.40686279535293579
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="378761" interpolation-style="Linear" time-domain="BeatTime" state="Play">
+        <events>b924652 0.63865220546722412
+b1137934 0.64598542451858521
+b1233564 0.64598542451858521
+b1729586 0.62142860889434814
+b1729594 0.50049841403961182
+b4338631 0.49768692255020142
+b4351986 0.23451507091522217
+b4476787 0.23438036441802979
+b4483366 0.49753135442733765
+b5042909 0.49680966138839722
+b5043378 0.40415340662002563
+b5192746 0.40393567085266113
+b5208033 0.50958466529846191
+b7883110 0.50958466529846191
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="457800" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="457800" interpolation-style="Linear" time-domain="BeatTime" state="Off">
+        <events>b2982145 0.5
+b2988142 0.34285712242126465
+b3505329 0.34490686655044556
+b3508948 0.50714290142059326
+b5015040 0.5
+b11916454 0.5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="457800" interpolation-style="Linear" time-domain="BeatTime" state="Off">
+        <events>b2982145 0.5
+b2988142 0.34285712242126465
+b3505329 0.34490686655044556
+b3508948 0.50714290142059326
+b5015040 0.5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="457951" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="457951" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.5
+b4323185 0.5
+b4351985 0.25438594818115234
+b4476786 0.25438594818115234
+b4492145 0.5
+b5810103 0.5
+b5823058 0.29411762952804565
+b6225693 0.29411762952804565
+b6251605 0.5
+b6675063 0.5
+b6684825 0.39215683937072754
+b7027815 0.39215683937072754
+b7054944 0.5
+b7946688 0.5
+b7947521 0.32437276840209961
+b8526670 0.32437276840209961
+b8531718 0.5
+b10720528 0.5
+b10746066 0.71000003814697266
+b10869928 0.71490198373794556
+b10873707 0.48529410362243652
+b10928763 0.48470592498779297
+b10930965 0.28431373834609985
+b11182110 0.27833330631256104
+b11188579 0.48499995470046997
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="457951" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.5
+b4323185 0.5
+b4351985 0.25438594818115234
+b4476786 0.25438594818115234
+b4492145 0.5
+b5810103 0.5
+b5823058 0.29411762952804565
+b6225693 0.29411762952804565
+b6251605 0.5
+b6675063 0.5
+b6684825 0.39215683937072754
+b7027815 0.39215683937072754
+b7054944 0.5
+b7946688 0.5
+b7947521 0.32437276840209961
+b8526670 0.32437276840209961
+b8531718 0.5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="465141" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="465141" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.70792305469512939
+b5757246 0.70792305469512939
+b5787581 0.60007989406585693
+b6214370 0.60007989406585693
+b6258068 0.70792305469512939
+b11916454 0.70792305469512939
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="465141" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.70792305469512939
+b5757246 0.70792305469512939
+b5787581 0.60007989406585693
+b6214370 0.60007989406585693
+b6258068 0.70792305469512939
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="465287" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="465287" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b-1 0.70792305469512939
+b0 0.70792305469512939
+b5757246 0.70792305469512939
+b5789635 0.70792305469512939
+b6132965 0.70792305469512939
+b6174609 0.70792305469512939
+b6174610 0.70792305469512939
+b11916454 0.70792305469512939
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="465287" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b-1 0.70792305469512939
+b0 0.70792305469512939
+b5757246 0.70792305469512939
+b5789635 0.70792305469512939
+b6132965 0.70792305469512939
+b6174609 0.70792305469512939
+b6174610 0.70792305469512939
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="467781" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="467781" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.485401451587677
+b128 0.40145990252494812
+b57639 0.40145990252494812
+b57767 0.39416062831878662
+b58406 0.39416062831878662
+b58661 0.38686135411262512
+b59045 0.38686135411262512
+b59300 0.37956207990646362
+b60323 0.37956207990646362
+b60451 0.37226283550262451
+b65179 0.37226283550262451
+b65435 0.36496356129646301
+b924652 0.36496356129646301
+b924653 0.51428568363189697
+b1136297 0.51428568363189697
+b4339089 0.52142858505249023
+b4342081 0.78326737880706787
+b4492145 0.78314721584320068
+b4500302 0.53571426868438721
+b5956620 0.52052706480026245
+b5956628 0.76391792297363281
+b6016628 0.76314747333526611
+b6016636 0.51939940452575684
+b6106388 0.51855194568634033
+b6106396 0.72340184450149536
+b6227828 0.72251379489898682
+b6227836 0.51727867126464844
+b6536953 0.51453483104705811
+b6575349 0.71404671669006348
+b7306171 0.71292304992675781
+b7308377 0.5
+b7943348 0.5
+b7947319 0.58121395111083984
+b8503597 0.58083200454711914
+b8519033 0.50587302446365356
+b10655441 0.51590907573699951
+b10656514 0.60227274894714355
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="467781" interpolation-style="Linear" time-domain="BeatTime" state="Touch">
+        <events>b0 0.485401451587677
+b128 0.40145990252494812
+b57639 0.40145990252494812
+b57767 0.39416062831878662
+b58406 0.39416062831878662
+b58661 0.38686135411262512
+b59045 0.38686135411262512
+b59300 0.37956207990646362
+b60323 0.37956207990646362
+b60451 0.37226283550262451
+b65179 0.37226283550262451
+b65435 0.36496356129646301
+b924652 0.36496356129646301
+b924653 0.51428568363189697
+b1136297 0.51428568363189697
+b4339089 0.52142858505249023
+b4342081 0.78326737880706787
+b4492145 0.78314721584320068
+b4500302 0.53571426868438721
+b5956620 0.52052706480026245
+b5956628 0.76391792297363281
+b6016628 0.76314747333526611
+b6016636 0.51939940452575684
+b6106388 0.51855194568634033
+b6106396 0.72340184450149536
+b6227828 0.72251379489898682
+b6227836 0.51727867126464844
+b6536953 0.51453483104705811
+b6575349 0.71404671669006348
+b7306171 0.71292304992675781
+b7308377 0.5
+b7943348 0.5
+b7947319 0.58121395111083984
+b8503597 0.58083200454711914
+b8519033 0.50587302446365356
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="Editor">
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="71143394" y-origin="1209">
         <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
+          <ControlPoint type="track" route-id="378726" automation-list-id="378761" parameter="pan-azimuth" view-index="14"/>
+          <ControlPoint type="track" route-id="378726" automation-list-id="378761" parameter="pan-azimuth" view-index="15"/>
+          <ControlPoint type="track" route-id="457789" automation-list-id="457800" parameter="pan-azimuth" view-index="5"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="17"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="18"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="19"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="20"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="21"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="22"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="23"/>
+          <ControlPoint type="track" route-id="457940" automation-list-id="457951" parameter="pan-azimuth" view-index="24"/>
+          <ControlPoint type="track" route-id="465130" automation-list-id="465141" parameter="pan-azimuth" view-index="5"/>
+          <ControlPoint type="track" route-id="465276" automation-list-id="465287" parameter="pan-azimuth" view-index="6"/>
+          <ControlPoint type="track" route-id="467746" automation-list-id="467781" parameter="pan-azimuth" view-index="35"/>
+          <ControlPoint type="track" route-id="467746" automation-list-id="467781" parameter="pan-azimuth" view-index="36"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="71143394" y-origin="1209">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1768386632" tv-usec="921115" name="delete objects">
+    <MementoCommand obj-id="471188" type-name="ARDOUR::AutomationList">
+      <AutomationList automation-id="pan-azimuth" id="471188" interpolation-style="Linear" time-domain="BeatTime" state="Latch">
+        <events>b1228800 0.60843372344970703
+b1528320 0.60843372344970703
+b1536000 0.5
+b6693437 0.5
+b6697295 0.67647051811218262
+b6759332 0.67647051811218262
+b6763696 0.5
+b11916454 0.5
+</events>
+      </AutomationList>
+      <AutomationList automation-id="pan-azimuth" id="471188" interpolation-style="Linear" time-domain="BeatTime" state="Latch">
+        <events>b1228800 0.60843372344970703
+b1528320 0.60843372344970703
+b1536000 0.5
+b6693437 0.5
+b6697295 0.67647051811218262
+b6759332 0.67647051811218262
+b6763696 0.5
+</events>
+      </AutomationList>
+    </MementoCommand>
+    <MementoCommand obj-id="49" type-name="Editor">
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="66865741" y-origin="1333">
         <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
+          <ControlPoint type="track" route-id="471153" automation-list-id="471188" parameter="pan-azimuth" view-index="7"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="66865741" y-origin="1333">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1768387125" tv-usec="471059" name="rename marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b0" end="b10783063" flags="IsSessionRange" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b14400" end="b14400" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1152000" end="b1152000" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker,IsClockOrigin" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735338" end="b1735338" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2802847" end="b2802847" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802847" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4023592" end="b4023592" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4023592" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735338" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922112" end="b4922112" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922112" end="b5503701" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5638300" end="b5638300" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568978" end="b6568978" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568978" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma_Take1" start="b7775853" end="b7775853" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8726400" end="b8726400" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma" start="b7775853" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5638300" end="b6429428" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="1686382" name="Loop" start="b3119424" end="b3180864" flags="IsAutoLoop" locked="0" timestamp="1765568696" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b0" end="b10783063" flags="IsSessionRange" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b14400" end="b14400" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1152000" end="b1152000" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker,IsClockOrigin" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735338" end="b1735338" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2802847" end="b2802847" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802847" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4023592" end="b4023592" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4023592" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735338" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922112" end="b4922112" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922112" end="b5503701" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5638300" end="b5638300" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568978" end="b6568978" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568978" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma" start="b7775853" end="b7775853" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8726400" end="b8726400" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma" start="b7775853" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5638300" end="b6429428" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="1686382" name="Loop" start="b3119424" end="b3180864" flags="IsAutoLoop" locked="0" timestamp="1765568696" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="54032782" y-origin="589">
+        <Selection/>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="54032782" y-origin="589">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1768387621" tv-usec="109065" name="move marker">
+    <MementoCommand obj-id="58" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="1427" name="session" start="b0" end="b10783063" flags="IsSessionRange" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b14400" end="b14400" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1152000" end="b1152000" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker,IsClockOrigin" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735338" end="b1735338" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2802847" end="b2802847" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802847" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4023592" end="b4023592" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4023592" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735338" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922112" end="b4922112" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922112" end="b5503701" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5638300" end="b5638300" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568978" end="b6568978" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568978" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma" start="b7775853" end="b7775853" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8726400" end="b8726400" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma" start="b7775853" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5638300" end="b6429428" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="1686382" name="Loop" start="b3119424" end="b3180864" flags="IsAutoLoop" locked="0" timestamp="1765568696" cue="0"/>
+      </Locations>
+      <Locations>
+        <Location id="1427" name="session" start="b0" end="b10073448" flags="IsSessionRange" locked="0" timestamp="1754689221" cue="0"/>
+        <Location id="4202" name="Antrieb" start="b14400" end="b14400" flags="IsMark" locked="0" timestamp="1754817615" cue="0"/>
+        <Location id="4211" name="Antrieb" start="b14400" end="b875520" flags="IsRangeMarker" locked="0" timestamp="1754817626" cue="0"/>
+        <Location id="5590" name="Franka" start="b1152000" end="b1152000" flags="IsMark" locked="0" timestamp="1754817786" cue="0"/>
+        <Location id="5599" name="Franka" start="b1150080" end="b1660800" flags="IsRangeMarker,IsClockOrigin" locked="0" timestamp="1754817796" cue="0"/>
+        <Location id="5608" name="Juwelen" start="b1735338" end="b1735338" flags="IsMark" locked="0" timestamp="1754817801" cue="0"/>
+        <Location id="6052" name="Management" start="b2802847" end="b2802847" flags="IsMark" locked="0" timestamp="1754817887" cue="0"/>
+        <Location id="6591" name="Management" start="b2802847" end="b3870720" flags="IsRangeMarker" locked="0" timestamp="1754817998" cue="0"/>
+        <Location id="6600" name="Schlange" start="b4023592" end="b4023592" flags="IsMark" locked="0" timestamp="1754818005" cue="0"/>
+        <Location id="7433" name="Schlange" start="b4023592" end="b4738560" flags="IsRangeMarker" locked="0" timestamp="1754818122" cue="0"/>
+        <Location id="8425" name="Juwelen" start="b1735338" end="b2718720" flags="IsRangeMarker" locked="0" timestamp="1754818641" cue="0"/>
+        <Location id="13360" name="Tanker" start="b4922112" end="b4922112" flags="IsMark" locked="0" timestamp="1754819040" cue="0"/>
+        <Location id="30663" name="Tanker" start="b4922112" end="b5503701" flags="IsRangeMarker" locked="0" timestamp="1754825983" cue="0"/>
+        <Location id="31028" name="DingelDongel" start="b5638300" end="b5638300" flags="IsMark" locked="0" timestamp="1754826810" cue="0"/>
+        <Location id="50232" name="9euro" start="b6568978" end="b6568978" flags="IsMark" locked="0" timestamp="1754830576" cue="0"/>
+        <Location id="84510" name="9euro" start="b6568978" end="b7365120" flags="IsRangeMarker" locked="0" timestamp="1754836456" cue="0"/>
+        <Location id="84547" name="Magma" start="b7775853" end="b7775853" flags="IsMark" locked="0" timestamp="1754837426" cue="0"/>
+        <Location id="115138" name="Glockenmann" start="b8726400" end="b8726400" flags="IsMark" locked="0" timestamp="1754850631" cue="0"/>
+        <Location id="135165" name="Magma" start="b7775853" end="b8519040" flags="IsRangeMarker" locked="0" timestamp="1755256332" cue="0"/>
+        <Location id="135183" name="Glockenmann" start="b8741760" end="b9780480" flags="IsRangeMarker" locked="0" timestamp="1755256351" cue="0"/>
+        <Location id="167537" name="DingelDongel" start="b5638300" end="b6429428" flags="IsRangeMarker" locked="0" timestamp="1755522639" cue="0"/>
+        <Location id="1686382" name="Loop" start="b3119424" end="b3180864" flags="IsAutoLoop" locked="0" timestamp="1765568696" cue="0"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="68442448" y-origin="465">
+        <Selection>
+          <Marker id="1427" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="33128" left-frame="68442448" y-origin="465">
+        <Selection>
+          <Marker id="1427" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1768224905" tv-usec="160193" name="adjust region gain">
-    <StatefulDiffCommand obj-id="1887119" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1768465033" tv-usec="973263" name="change region opacity">
+    <StatefulDiffCommand obj-id="703724" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <scale-amplitude from="1.5848933458328247" to="1.412537693977356"/>
+        <opaque from="0" to="1"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
+      <SelectionMemento mouse-mode="MouseObject" zoom="66176" left-frame="0" y-origin="831">
         <Selection>
           <Regions>
-            <Region id="1887119"/>
+            <Region id="703724"/>
           </Regions>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
+      <SelectionMemento mouse-mode="MouseObject" zoom="66176" left-frame="0" y-origin="831">
         <Selection>
           <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224905" tv-usec="301058" name="adjust region gain">
-    <StatefulDiffCommand obj-id="1887119" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.412537693977356" to="1.2589255571365356"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224906" tv-usec="415711" name="adjust region gain">
-    <StatefulDiffCommand obj-id="1887119" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.2589255571365356" to="1.122018575668335"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1768224906" tv-usec="564503" name="adjust region gain">
-    <StatefulDiffCommand obj-id="1887119" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <scale-amplitude from="1.122018575668335" to="1.0000001192092896"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="2048" left-frame="50636187" y-origin="3243">
-        <Selection>
-          <Regions>
-            <Region id="1887119"/>
+            <Region id="703724"/>
           </Regions>
         </Selection>
       </SelectionMemento>
