@@ -17,7 +17,66 @@ wichtig für git Versionierung:
 
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
+## Notizen für Daniel
+
+15.02.2026
+
+Daniel hat einmal alles grob gemastert. Oder so. Jetzt will er unsere Rückmeldungen haben und weiter mischen.
+
+- Generell haben in unseren Ohren die Gitarren und Gesänge ein bisschen vertauschte Rollen; **Vocals dürften insgesamt leiser und Gitarren lauter.** Wir finden's wichtiger dass man versteht was bei den Gitarren passiert, als dass man den Text versteht (bei Magma und Antrieb scheint es schon ganz gut)
+- **Gitarren scheinen sehr crunchy, derb**; vielleicht durch einen Höhenanteil, der jetzt stärker durchkommt. Evtl lassen die sich noch ein wenig "weichzeichnen"?
+- **Antrieb**: Tobis Gitarre darf bissi lauter
+- **9Euro**:
+    - Gesang etwas leiser (nur Hauptstimme; Chor kann bleiben)
+    - Tobi Gitarre darf noch etwas lauter
+    - Hihat ist besonders laut, vielleicht, weil sie offen gespielt wird? jedenfalls schluckt sie dadurch die Snare
+        - genauer: von 0:03 bis 0:13 sowie 0:37 bis 0:47 (in den Strophen) werden Snare und Bassgitarre verschluckt
+    - **(überprüfen)** bei 0:24 stolpert der Bass...das war vorher nicht so
+    - Fehlt bei dem Lied insgesamt noch ein bisschen Druck in den Mitten
+- **Juwelenraub**: 
+    - Vincents Stimme am Ende hat etwas dosigen Effekt. Wir verstehen den Vorschlag (als Betonung des unterschiedlichen Gesangsstils), fänden es aber ohne besser oder nochmal stärker reduziert.
+    -  Der Gesang darf auch etwas leiser und Tobis Gitarre lauter.
+-  **Glockenmann**: 
+	- (**überprüfen**) In der zweiten Strophe kommt es vor, als würde Davids Stimme Vincents etwas hinterherhinken. Oder?
+	- Gesang darf ein bisschen leiser; Chor in der Strophe lauter
+	- Tobis Gitarre darf lauter
+- **Magma**
+	- Gesang ein bissi leiser
+	- (**überprüfen**) Chor Refrain alle gleich cutten am Ende
+- **Franka**:
+    - (**überprüfen**) Einsatz bei 1:27 klingt ein bisschen wie ein Glitch?
+- **Schlange**:
+	- (**Zeitangabe**) In der ruhigen Stelle: Hier ist jetzt die unpräzise Aufnahme der Gesänge deutlich hörbar anhand von aufeinander folgenden Konsonanten (Wortendungen). Das haben wir verkackt, aber es fiel vorher nicht so auf, da der Gesang nicht so schön herausgearbeitet war. Vielleicht verschafft hier auch ein bisschen weniger Prägnanz in den Höhen abhilfe? Du hast bestimmt ne Idee..
+	- Vocal-Effektgeflabber am Ende darf gerne wieder in den Mix rein, das hat so schöne psych-rock vibes
+- **Tanker**: 
+	- Tobis Gitarre am Ende mehr hervorheben (lauter? weniger Hall?)
+	- (überprüfen) ganz am Ende den Gesangsschwanz cutten
+
+
+Trackliste, voraussichtlich:
+
+1. Magma
+2. Antrieb
+3. Glockenmann
+4. Franka
+5. Juwelenraub
+6. Schlange
+7. DingelDongel
+8. Management
+9. Tanker
+10. 9€
+
 ## Mixlog
+
+21.01.2026 Stem-Export für Daniel
+
+- Gehe track für track durch:
+    1. mute immer alle Spuren, die nicht gebraucht werden
+    2. Stem-Export
+        1. Channels->Deselect All + Select Audio Tacks (Exclude Muted)
+        2. TimeSpan: Track auswählen + Exportieren (32 bit, 44.1 kHz)
+    3. schaue in Mixer: Haben Spuren übersteurert? Dann Fader um diese Menge herunterschrauben und erneut exportieren
+    4. wenn alles gut ist: Projekt schließen, nicht speichern!
 
 14.01.2026 Aufräumaktion
 
