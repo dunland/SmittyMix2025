@@ -17,9 +17,35 @@ wichtig für git Versionierung:
 
 Der Ordner "interchange" sollte in der Cloud gespeichert sein.
 
+## Release
+
+### Kassetten
+
+- David hat die Kassetten zu Hause bespielt:
+- von Ardour-Projekt "Ardour-Kassetten", Computerlautstärke 100%, Kassettenrekorderlautstärke auf 4.5 ca.
+
+### CDs
+
+CD-Druckeinstellungen für bedruckbare CDs (Verbatim?):
+- Vorlage in GIMP: 120x120 mm, Randloser Druck
+- Paper Type: Printable Disk (Compatible)
+- Paper Size: CD - Custom (119.9 x 119.9 mm)
+- Color: CMYK
+- Advanced Settings:
+    - CD Hub Size: Print to Hub
+    - Borderless: Yes
+    - CD Size (Custom): 119.9 mm
+    - CD Hub Size (Custom): 22.2 – hängt von CD ab, der Innenkreis ist gemeint. Muss man ausmessen
+    - Vertical Displacement: 4.9 mm (Versatz in Richtung "Drucker-Inneres"; sonst wurde nicht zentriert gedruckt!
+
+### Recordjet
+
+02.05.2026
+- Man muss eine Artist ID angeben. Die kann man nur via Spotify oder Apple Music anfordern.  (bzw muss für beide jeweils?) Ich wähle .... nichts bisher
+
 ## Notizen für Daniel
 
-15.02.2026
+17.02.2026
 
 Daniel hat einmal alles grob gemastert. Oder so. Jetzt will er unsere Rückmeldungen haben und weiter mischen.
 
