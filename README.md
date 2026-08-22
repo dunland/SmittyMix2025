@@ -37,6 +37,9 @@ CD-Druckeinstellungen für bedruckbare CDs (Verbatim?):
     - CD Size (Custom): 119.9 mm
     - CD Hub Size (Custom): 22.2 – hängt von CD ab, der Innenkreis ist gemeint. Muss man ausmessen
     - Vertical Displacement: 4.9 mm (Versatz in Richtung "Drucker-Inneres"; sonst wurde nicht zentriert gedruckt!
+- zwei Typen von CDs:
+    - cd-aufdruck mit vollständigem Toastbrot reserviert für standard-CD, also einfach alle songs wie bei bandcamp nacheinander
+    - cd-aufdruck mit angebissenem Toastbrot reserviert für alternative CDs (lieder wie auf kassette, mit saxofon und skits)
 
 ### Recordjet
 
